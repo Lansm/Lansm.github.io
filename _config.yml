@@ -91,3 +91,11 @@ search:
   versionPath: searchVersion.txt
   field: post
   #field: post, page or all
+
+
+###  RSS订阅插件
+# npm install hexo-generator-feed --save
+feed:
+    type: atom
+    path: atom.xml
+    limit: 20

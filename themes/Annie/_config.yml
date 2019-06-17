@@ -55,12 +55,12 @@ index_style: cart
 cover: /img/cart_cover.jpg
 lazy_image: /img/placeholder.jpg
 
-#文章封面图
+#文章封面图 -> 文章md中：
 # title: 
 # date:
 # cover:
-#categories
-#tags
+# categories:
+# tags:
 
 #########################################################################################################
 # 004-POST
@@ -76,12 +76,12 @@ comment:
     enable: true
 
 gitalk:
-    enable: false
-    clientID: '333--' 
-    clientSecret: '333--' 
-    repo: annie-gitalk 
-    owner: Sariay 
-    admin: Sariay 
+    enable: true
+    clientID: '82153703d65680b71869' 
+    clientSecret: 'd369b5805e91741bc0a91f1de8399235c15b667d' 
+    repo: Thaddeus-Comments-Re
+    owner: Lansm 
+    admin: Lansm 
     distractionFreeMode: true
     #去除 more、index.html、?query=123等格式尾部 
     hrefTrimend: '#.*$,\\?.*$,index.html$' 
@@ -133,9 +133,10 @@ post_toc:
     enable: true
     katelog: true
     
+### 数学公式:请先设置主题配置文件的mathjax参数，再于文章的Front-matter中添加mathjax: true
 # post_mathJax
 mathjax:
-  enable: false
+  enable: true
   
 # post_code
 # highlight_theme: normal | night | night blue | night bright | night eighties
@@ -174,19 +175,19 @@ socialShare:
 # social
 social:
     github:
-        url: http://github.com/
+        url: http://github.com/lansm
         icon: fa fa-github
     weibo:
-        url: http://github.com/
+        url: https://thaddeus.ink
         icon: fa fa-weibo    
     pinterest: 
-        url: http://github.com/
+        url: https://thaddeus.ink
         icon: fa fa-pinterest
     instagram:
-        url: http://github.com/
+        url: https://thaddeus.ink
         icon: fa fa-instagram
     twitter:
-        url: http://github.com/
+        url: https://thaddeus.ink
         icon: fa fa-twitter
     rss: 
         url: /atom.xml
@@ -230,3 +231,4 @@ love:
 # back to top
 totop:
     enable: true
+
