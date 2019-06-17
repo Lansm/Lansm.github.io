@@ -13,7 +13,7 @@ menu:
 # favicon & logo
 # if the value of logo is false, the 'title' is optional.
 favicon: /img/favicon.ico
-logo:
+logo: false
 title: Thaddeus
 
 # background_image
