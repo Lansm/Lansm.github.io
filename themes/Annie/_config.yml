@@ -208,7 +208,7 @@ gallery_format: natural
 # one time to load 4 rows or other count, 0 to load img automatically when scrolling.(0,1,2,3,4,5,6......)
 gallery_limit: 0
 # data url
-gallery_data: plugin/gallerypage/data.json
+gallery_data: /plugin/gallerypage/data.json
 
 #########################################################################################################
 # 007-LOCAL SEARCH
