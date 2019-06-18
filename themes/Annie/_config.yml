@@ -112,7 +112,7 @@ leancloud_count:
 
 
 busuanzi_count:
-    enable: true
+    enable: false
 
 baidu_analytics:
     enable: true
