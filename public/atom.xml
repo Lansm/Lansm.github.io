@@ -5,9 +5,9 @@
   <subtitle>岚衫陌</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://thaddeus.ink/"/>
   <updated>2019-06-18T07:19:17.374Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://thaddeus.ink/</id>
   
   <author>
     <name>Thaddeus</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/06/17/hello-world/"/>
-    <id>http://yoursite.com/2019/06/17/hello-world/</id>
+    <link href="http://thaddeus.ink/2019/06/17/hello-world/"/>
+    <id>http://thaddeus.ink/2019/06/17/hello-world/</id>
     <published>2019-06-17T14:58:56.769Z</published>
     <updated>2019-06-18T07:19:17.374Z</updated>
     
@@ -34,10 +34,10 @@
     
     </summary>
     
-      <category term="Test" scheme="http://yoursite.com/categories/Test/"/>
+      <category term="Test" scheme="http://thaddeus.ink/categories/Test/"/>
     
     
-      <category term="Test" scheme="http://yoursite.com/tags/Test/"/>
+      <category term="Test" scheme="http://thaddeus.ink/tags/Test/"/>
     
   </entry>
   

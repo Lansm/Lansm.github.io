@@ -1,0 +1,162 @@
+---
+title: git+hexo 遇坑总结
+categories: hexo
+tags: hexo
+cover: 'https://overpic.net/viewer.php?file=xepkpqru31scgcjj823k.jpg'
+abbrlink: 27710
+---
+
+> **折腾了一天，终于搞定了自己的个人博客网站(╯﹏╰)**
+  
+##### 1. github 建立个人博客仓库
+>仓库名： *用户名.github.io*   
+> 例： [lansm.github.io](thaddeus.ink)
+
+##### 2.安装git
+> * 安装成功后，将Git与GitHub帐号绑定设置user.name和user.email配置信息
+> * 生成ssh密钥文件，直接三个回车即可，默认不需要设置密码
+> * 找到生成的.ssh的文件夹中的id_rsa.pub密钥，将内容全部复制，打开GitHub_Settings_keys 页面，新建new SSH Key
+> * 在Git Bash中检测GitHub公钥设置是否成功
+
+```
+git config --global user.name "你的GitHub用户名"
+git config --global user.email "你的GitHub注册邮箱"
+ssh-keygen -t rsa -C "你的GitHub注册邮箱"
+ssh git@github.com
+```
+
+##### 3.安装[Node.js](https://nodejs.org/en/download/)
+
+>检测Node.js是否安装成功     ` node -v `
+>检测npm是否安装成功     ` npm -v `
+
+##### 4.安装Hexo
+
+建立文件夹存放Hexo框架与以后你自己发布的网页
+通过命令行进入文件夹（或者文件夹中shift+右键）
+安装Hexo
+```
+npm install -g hexo-cli 
+```
+初始化博客
+```
+hexo init blog
+```
+为了检测我们的网站雏形，分别按顺序输入以下三条命令：
+```
+hexo new test_my_site
+hexo g
+hexo s
+```
+新建一篇博客文章+生成网页+在本地预览
+默认本地服务地址 ： [localhost:4000](localhost:4000)
+
+将我们的Hexo与GitHub关联起来，打开站点的配置文件_config.yml（自己建立的根目录下），翻到最后修改为：
+```
+deploy:
+    type: git
+    repo:  #这里填入你之前在GitHub上创建仓库的完整路径，记得加上 .git
+    branch: master
+```
+上面是给hexo d 做相应配置，让hexo知道你要把blog部署在哪里
+
+安装Git部署插件
+```
+npm install hexo-deployer-git --save
+```
+```
+hexo clean 
+hexo g 
+hexo d
+```
+hexo d 就是部署网站命令，d是deploy的缩写。
+完成后，打开浏览器，在地址栏输入你的放置个人网站的仓库路径，即 用户名.github.io 
+例： [lansm.github.io](thaddeus.ink)
+
+到这里其实已经完成博客的框架搭建，可以自行探索了
+但是为了更简单+更美观： **选择主题安装配置**
+
+##### 5.安装配置主题
+
+以本站主题为例：
+```
+git clone https://github.com/Sariay/hexo-theme-Annie.git
+```
+将站点目录下的_config.yml文件中的theme字段修改为Annie。
+确保themes目录下存在名为Annie的文件夹（或hexo-theme-Annie）
+
+##### 6.其它说明
+* [star主题库查看实现功能~Annie主题github](https://github.com/Sariay/hexo-theme-Annie)
+* [主题原作者Blog~Annie主题使用说明详情](https://sariay.github.io/2018/08/27/Annie主题使用说明/)
+* [[知乎]Github+Hexo 搭建个人博客(包括域名绑定)](https://zhuanlan.zhihu.com/p/26625249)
+* [备份hexo放置换电脑掉数据之类](https://blog.csdn.net/wxl1555/article/details/79293159)
+* 配置过程中遇到其它问题可以根据自己的主题项目结构进行查看并个性化修改配置文件，下面是Annie项目结构：
+```
+Annie
+├─languages					#国际化语言支持
+├─layout					#html页面模板
+│  └─_partial
+│      ├─custom
+│      ├─plugin
+│      │  ├─clipboard
+│      │  ├─comment
+│      │  ├─share
+│      │  └─statistics
+│      ├─post
+│      └─widget
+├─scripts					#站点脚本
+└─source					#主题资源
+    ├─css
+    │  └─_highlight
+    ├─img
+    │  ├─post-cover
+    │  ├─quote
+    │  └─random
+    ├─js
+    └─plugin
+        ├─chinese
+        ├─clipboard
+        ├─comment
+        ├─fancybox
+        ├─gallerypage
+        │  └─images
+        ├─imgLazyLoader
+        ├─imgResize
+        ├─love
+        ├─motto
+        ├─nicescroll
+        ├─search
+        ├─toc
+        └─vibrant
+```
+
+##### 7.其它问题解决
+1. 关于网站统计问题
+>我自己在配置百度统计的时候直接放上去ID是没有反应的，获取不到，不知道为什么
+>最后解决方案是寻找网站html页面模版，在`\layout\_partial`找到`footer.ejs`
+>查看里面的统计模块我直接在busuanzi下面照葫芦画瓢加了一行
+>`<%- partial('plugin/statistics', {type: 'baidu-analysis'}) %>`
+>然后按`\plugin\statistics`找到不同统计设置文件，直接在里面增加自己的百度统计ID[^1]
+>（类似的问题也可以这样尝试自己解决）
+
+2. 关于域名解析后开启CDN加速问题（阿里云）
+>域名解析按照上面链接食用即可，关于CDN加速，阿里云内都有详细介绍，如：[如何配置CNAME?](https://help.aliyun.com/document_detail/64928.html?spm=5176.11220512.0.0.2e9372f0EMk9wR)
+>很坑爹的是阿里云里面的动态加速不要开！不要开！不要开！
+>我一打开它就页面重定向过多报错:sob::sob::sob:，找了老久才发现原因:sob::sob::sob:。
+>后面的HTTPS配置，阿里云可以免费申请SSL证书，详情：[如何配置HTTPS？](https://help.aliyun.com/document_detail/65101.html?spm=5176.11220512.0.0.2e9372f0EMk9wR)
+>不用阿里云的也差不多，配置证书方式可能不一样，
+>不使用证书的话浏览器地址栏左侧可能会提示你该网站不安全，
+>有的甚至还会在打开网页的时候必须手动点击来确认打开（比如谷歌）
+
+>[^1]: 百度统计的代码获取中有一行
+>`hm.src = "https://hm.baidu.com/hm.js?a087f930b192cdc0461708562e128e6b";`
+>其中`hm.js?`后面的就是自己的百度统计ID（熟悉一下下标用法~ :dog::dog::dog:）
+
+
+##### 8.友情链接
+
+* :heartbeat: [CZLisyx - 浮生志](https://www.singlelovely.cn/)
+* :heartbeat:[有格调](https://www.ugediao.com/)
+* :heartbeat: [Sariay-Blog](https://sariay.github.io/)
+* :heartbeat: [sariay新的Hexo相册主题](http://gallery.sariay.me/)
+
