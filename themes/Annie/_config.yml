@@ -177,7 +177,7 @@ socialShare:
 # social
 social:
     github:
-        url: http://github.com/lansm
+        url: http://github.com/lansm || github
         icon: fa fa-github
     weibo:
         url: https://thaddeus.ink
