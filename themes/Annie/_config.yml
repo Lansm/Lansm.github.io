@@ -204,7 +204,7 @@ cotent_author: Thaddeus
 #########################################################################################################
 # gallery page
 # gallery_format: natural | square
-gallery_format: natural
+gallery_format: square
 # one time to load 4 rows or other count, 0 to load img automatically when scrolling.(0,1,2,3,4,5,6......)
 gallery_limit: 0
 # data url
