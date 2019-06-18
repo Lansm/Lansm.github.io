@@ -2,7 +2,7 @@
 title: git+hexo 遇坑总结
 categories: hexo
 tags: hexo
-cover: 'https://overpic.net/viewer.php?file=xepkpqru31scgcjj823k.jpg'
+cover: '/img/post_cover/r221.jpg'
 abbrlink: 27710
 ---
 
