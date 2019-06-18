@@ -636,6 +636,8 @@ jQuery(document).ready(function($) {
 		});		
 	};
 
+	
+
 	/**
 	 * Other js functions. An function example might be as follows:
 	 */

@@ -116,7 +116,7 @@ busuanzi_count:
 
 baidu_analytics:
     enable: true
-    id: 087f930b192cdc0461708562e128e6
+    id: a087f930b192cdc0461708562e128e6b
 
 cnzz_analytics:
     enable: false
