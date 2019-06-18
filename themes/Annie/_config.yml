@@ -116,7 +116,7 @@ busuanzi_count:
 
 baidu_analytics:
     enable: true
-    id: a087f930b192cdc0461708562e128e6b
+    id: 087f930b192cdc0461708562e128e6
 
 cnzz_analytics:
     enable: false
@@ -161,7 +161,7 @@ addThis:
     id: ra-xxx
 # http://share.baidu.com/code
 baiduShare: 
-    enable: false
+    enable: true
     style: button # you can add slide style!
 # https://www.sharethis.com/onboarding-cms/    
 shareThis:
