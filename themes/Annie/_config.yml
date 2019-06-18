@@ -109,12 +109,14 @@ leancloud_count:
         enable: true #param1 for topN_post
         limit: 10 #param2 for topN_post
 
+
+
 busuanzi_count:
     enable: true
 
 baidu_analytics:
-    enable: false
-    id: 
+    enable: true
+    id: a087f930b192cdc0461708562e128e6b
 
 cnzz_analytics:
     enable: false
