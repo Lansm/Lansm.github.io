@@ -12,18 +12,11 @@
 
 	<!-- site-analysis -->
 	<%- partial('statistics/baidu-analytics') %>
-	<%- partial('statistics/cnzz_analytics') %>
+	<!-- <%- partial('statistics/cnzz_analytics') %> -->
 	<%- partial('statistics/google_analytics') %>
-	<%- partial('statistics/tencent_analytics') %>
+	<!-- <%- partial('statistics/tencent_analytics') %> -->
 	
  <% } else { %>
-	<%- partial('statistics/baidu-analytics') %>
-	 <!-- DIY -->
 
  <% } %>
-
- <%  if(type == 'baidu-analysis') {%>
- <%- partial('statistics/baidu-analytics') %>
-	 <!-- DIY -->
-
- <% } %>
+ 

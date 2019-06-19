@@ -16,9 +16,13 @@ timezone: Asia/Shanghai
 url: http://thaddeus.ink
 root: /
 ## 按照日期归档分类
-permalink: :year/:month/:day/:title/
+#permalink: :year/:month/:day/:title/  # 默认永久链接冗长，title中存在中文字符。
+#permalink: :id.html # 尽量短，层次少，全小写，中划线连字，具有描述性，包含关键词
 permalink_defaults:
-
+permalink: :abbrlink.html   # 生成唯一链接
+abbrlink:
+  alg: crc32  # 算法：crc16(default) and crc32
+  rep: dec    # 进制：dec(default) and hex
 
 # Directory
 source_dir: source
@@ -79,10 +83,10 @@ theme: Annie
 
 
 ##sitemap
-baidusitemap:
-    path: baidusitemap.xml
-sitemap:
-    path: sitemap.xml
+# baidusitemap:
+#     path: baidusitemap.xml
+# sitemap:
+#     path: sitemap.xml
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

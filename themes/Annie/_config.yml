@@ -123,8 +123,8 @@ cnzz_analytics:
     id:
 
 google_analytics:
-    enable: false
-    id:
+    enable: true
+    id: UA-142393880-1
 
 tencent_analytics:
     enable: false
