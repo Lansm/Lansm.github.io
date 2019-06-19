@@ -158,5 +158,5 @@ Annie
 * [CZLisyx - 浮生志](https://www.singlelovely.cn/)
 * [有格调](https://www.ugediao.com/)
 * [Sariay-Blog](https://sariay.github.io/)
-* [sariay新的Hexo相册主题](http://gallery.sariay.me/)
+* [Sariay新的Hexo相册主题](http://gallery.sariay.me/)
 
