@@ -18,8 +18,9 @@ root: /
 ## 按照日期归档分类
 #permalink: :year/:month/:day/:title/  # 默认永久链接冗长，title中存在中文字符。
 #permalink: :id.html # 尽量短，层次少，全小写，中划线连字，具有描述性，包含关键词
-permalink_defaults:
+
 permalink: post/:abbrlink.html   # 生成唯一链接
+permalink_defaults:
 abbrlink:
   alg: crc32  # 算法：crc16(default) and crc32
   rep: dec    # 进制：dec(default) and hex
