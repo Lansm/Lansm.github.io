@@ -91,6 +91,7 @@ git clone https://github.com/Sariay/hexo-theme-Annie.git
 * [[知乎]Github+Hexo 搭建个人博客(包括域名绑定)](https://zhuanlan.zhihu.com/p/26625249)
 * [备份hexo放置换电脑掉数据之类](https://blog.csdn.net/wxl1555/article/details/79293159)
 * [SEO和站点加速](https://www.jianshu.com/p/6f1e53b70a48)
+* [Hexo提交百度谷歌收录站点](http://www.mamicode.com/info-detail-2455645.html)
 * 配置过程中遇到其它问题可以根据自己的主题项目结构进行查看并个性化修改配置文件，下面是Annie项目结构：
 ```
 Annie

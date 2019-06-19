@@ -1,0 +1,18 @@
+# hexo robots.txt
+User-agent: *
+Allow: /
+Allow: /post/
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Allow: /gallery/
+Allow: /about/
+
+Disallow: /img/
+Disallow: /js/
+Disallow: /css/
+Disallow: /plugin/
+
+
+Sitemap: http://thaddeus.ink/sitemap.xml
+Sitemap: http://thaddeus.ink/baidusitemap.xml
