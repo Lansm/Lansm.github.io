@@ -153,7 +153,7 @@ Annie
 >其中`hm.js?`后面的就是自己的百度统计ID（熟悉一下下标用法~ :dog::dog::dog:）
 
 
-##### 8.友情链接
+##### 8.推广链接
 
 * [CZLisyx - 浮生志](https://www.singlelovely.cn/)
 * [有格调](https://www.ugediao.com/)
