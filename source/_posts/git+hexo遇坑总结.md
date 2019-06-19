@@ -90,6 +90,7 @@ git clone https://github.com/Sariay/hexo-theme-Annie.git
 * [主题原作者Blog~Annie主题使用说明详情](https://sariay.github.io/2018/08/27/Annie主题使用说明/)
 * [[知乎]Github+Hexo 搭建个人博客(包括域名绑定)](https://zhuanlan.zhihu.com/p/26625249)
 * [备份hexo放置换电脑掉数据之类](https://blog.csdn.net/wxl1555/article/details/79293159)
+* [SEO和站点加速](https://www.jianshu.com/p/6f1e53b70a48)
 * 配置过程中遇到其它问题可以根据自己的主题项目结构进行查看并个性化修改配置文件，下面是Annie项目结构：
 ```
 Annie
@@ -147,6 +148,21 @@ Annie
 >不用阿里云的也差不多，配置证书方式可能不一样，
 >不使用证书的话浏览器地址栏左侧可能会提示你该网站不安全，
 >有的甚至还会在打开网页的时候必须手动点击来确认打开（比如谷歌）
+
+3.网站根目录有些文件需要排除出渲染覆盖范围
+>在站点配置文件 `_config.yml` 中进行修改
+>注意排除的是 `/source/` 文件夹下需要排除的文件：
+```
+#directory
+skip_render:
+  - README.md
+  - CNAME
+  - baidu_verify_XXXXXXXXXX.html #下载的文件名
+  - googlexxxxxx.html #下载文件名
+  - #上面 Baidu 和 Google 是用于站点收录的
+```
+
+
 
 >[^1]: 百度统计的代码获取中有一行
 >`hm.src = "https://hm.baidu.com/hm.js?a087f930b192cdc0461708562e128e6b";`

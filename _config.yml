@@ -19,7 +19,7 @@ root: /
 #permalink: :year/:month/:day/:title/  # 默认永久链接冗长，title中存在中文字符。
 #permalink: :id.html # 尽量短，层次少，全小写，中划线连字，具有描述性，包含关键词
 permalink_defaults:
-permalink: :abbrlink.html   # 生成唯一链接
+permalink: :post/:abbrlink.html   # 生成唯一链接
 abbrlink:
   alg: crc32  # 算法：crc16(default) and crc32
   rep: dec    # 进制：dec(default) and hex
@@ -33,6 +33,9 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  README.md
+  CNAME
+  google007a6d66e70d8be5.html
 
 # Writing
 new_post_name: :title.md # File name of new posts
