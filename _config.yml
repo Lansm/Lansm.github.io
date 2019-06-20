@@ -37,6 +37,7 @@ skip_render:
   - CNAME
   - google007a6d66e70d8be5.html
   - README.md
+  - robots.txt
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -45,7 +46,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -114,3 +115,12 @@ feed:
     type: atom
     path: atom.xml
     limit: 20
+
+
+## Emoji
+article_emoji:
+  full: true
+  style:
+    display: inline
+    padding: 10px
+

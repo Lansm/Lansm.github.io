@@ -79,7 +79,7 @@ hexo d 就是部署网站命令，d是deploy的缩写。
 ##### 5.安装配置主题
 
 以本站主题为例：
-```
+```git
 git clone https://github.com/Sariay/hexo-theme-Annie.git
 ```
 将站点目录下的_config.yml文件中的theme字段修改为Annie。
@@ -92,6 +92,7 @@ git clone https://github.com/Sariay/hexo-theme-Annie.git
 * [备份hexo放置换电脑掉数据之类](https://blog.csdn.net/wxl1555/article/details/79293159)
 * [SEO和站点加速](https://www.jianshu.com/p/6f1e53b70a48)
 * [Hexo提交百度谷歌收录站点](http://www.mamicode.com/info-detail-2455645.html)
+* [Markdown基础语法-Github](https://help.github.com/en/articles/basic-writing-and-formatting-syntax#using-emoji)[^1]
 * 配置过程中遇到其它问题可以根据自己的主题项目结构进行查看并个性化修改配置文件，下面是Annie项目结构：
 ```
 Annie
@@ -138,7 +139,7 @@ Annie
 >最后解决方案是寻找网站html页面模版，在`\layout\_partial`找到`footer.ejs`
 >查看里面的统计模块我直接在busuanzi下面照葫芦画瓢加了一行
 >`<%- partial('plugin/statistics', {type: 'baidu-analysis'}) %>`
->然后按`\plugin\statistics`找到不同统计设置文件，直接在里面增加自己的百度统计ID[^1]
+>然后按`\plugin\statistics`找到不同统计设置文件，直接在里面增加自己的百度统计ID[^2]
 >（类似的问题也可以这样尝试自己解决）
 
 2. 关于域名解析后开启CDN加速问题（阿里云）
@@ -150,9 +151,11 @@ Annie
 >不使用证书的话浏览器地址栏左侧可能会提示你该网站不安全，
 >有的甚至还会在打开网页的时候必须手动点击来确认打开（比如谷歌）
 
-3.网站根目录有些文件需要排除出渲染覆盖范围
+3. 网站根目录有些文件需要排除出渲染覆盖范围
 >在站点配置文件 `_config.yml` 中进行修改
 >注意排除的是 `/source/` 文件夹下需要排除的文件：
+>（最好是将不需要被访问的都屏蔽）
+
 ```
 #directory
 skip_render:
@@ -164,10 +167,13 @@ skip_render:
 ```
 
 
+>[^1]: 通过主题将md文档显示在网页上，不需要显示在网页的`README.md`注意通过站点配置过滤
+>还有需要注意的是使用表情emoji在hexo中需要插件⊙﹏⊙
+>[Hexo官方Emoji插件使用说明](https://www.npmjs.com/package/hexo-article-emoji)
 
->[^1]: 百度统计的代码获取中有一行
+>[^2]: 百度统计的代码获取中有一行
 >`hm.src = "https://hm.baidu.com/hm.js?a087f930b192cdc0461708562e128e6b";`
->其中`hm.js?`后面的就是自己的百度统计ID（熟悉一下下标用法~ :dog::dog::dog:）
+>其中`hm.js?`后面的就是自己的百度统计ID（熟悉一下下标用法~ :dog:）
 
 
 ##### 8.推广链接
