@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Thaddeus
-subtitle: 岚衫陌
-description: Blog by Thaddeus
-keywords:
+title: Ti'an 
+subtitle: I'm who am I, I'm the Ti'an.
+description: I'm who am I, I'm the Ti'an.
+keywords: Ti'an,兲,Thaddeus，Blog
 author: Thaddeus
-language: en | zh-CN | zh-TW
+language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
@@ -26,14 +26,14 @@ abbrlink:
   rep: dec    # 进制：dec(default) and hex
 
 # Directory
-source_dir: source
-public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
-code_dir: downloads/code
-i18n_dir: :lang
-skip_render:
+source_dir: source  # 源文件夹，内容存储 
+public_dir: public  # 公用文件夹，静态网站生成
+tag_dir: tags       # 标签目录
+archive_dir: archives # 归档目录
+category_dir: categories  # 分类目录
+code_dir: downloads/code  # 代码目录
+i18n_dir: :lang 
+skip_render:    # 被复制到public而不进行渲染
   - CNAME
   - google007a6d66e70d8be5.html
   - README.md
@@ -83,7 +83,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Annie
+theme: Next
 
 
 ##sitemap
@@ -100,12 +100,17 @@ deploy:
   branch: master
 
 
-search:
-  path: search.json
-  zipPath: search.zip
-  versionPath: searchVersion.txt
-  field: post
+# search:
+#   path: search.json
+#   zipPath: search.zip
+#   versionPath: searchVersion.txt
+#   field: post
   #field: post, page or all
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 
 
 ###  RSS订阅插件
@@ -120,23 +125,23 @@ feed:
 
 # Markdown-it config
 ## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
-markdown:
-  render:
-    html: true
-    xhtmlOut: false
-    breaks: true
-    linkify: true
-    typographer: true
-    quotes: '“”‘’'
-  plugins:
-    - markdown-it-abbr
-    - markdown-it-footnote
-    - markdown-it-ins
-    - markdown-it-sub
-    - markdown-it-sup
-  anchors:
-    level: 2
-    collisionSuffix: 'v'
-    permalink: true
-    permalinkClass: header-anchor
-    permalinkSymbol: ¶
+# markdown:
+#   render:
+#     html: true
+#     xhtmlOut: false
+#     breaks: true
+#     linkify: true
+#     typographer: true
+#     quotes: '“”‘’'
+#   plugins:
+#     - markdown-it-abbr
+#     - markdown-it-footnote
+#     - markdown-it-ins
+#     - markdown-it-sub
+#     - markdown-it-sup
+#   anchors:
+#     level: 2
+#     collisionSuffix: 'v'
+#     permalink: true
+#     permalinkClass: header-anchor
+#     permalinkSymbol: ¶

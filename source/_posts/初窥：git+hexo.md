@@ -1,12 +1,23 @@
 ---
-title: git+hexo 遇坑总结
-categories: hexo
-tags: hexo
-cover: '/img/post_cover/r221.jpg'
+title: 初窥：git+hexo
+date: 2020-1-26
+categories: 
+- 博客
+- 入门
+tags: 
+- Hexo
+- Git
+- 博客
+- 入门
+- 环境变量
 abbrlink: 27710
+
+
 ---
 
 > **折腾了一天，终于搞定了自己的个人博客网站(╯﹏╰)**
+
+<!-- more -->
 
 ##### 1. github 建立个人博客仓库
 >仓库名： *用户名.github.io*   
