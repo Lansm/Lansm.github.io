@@ -1,28 +1,28 @@
 ---
 title: 初窥：git+hexo
 date: 2020-1-26
-categories: 
-- 博客
-- 入门
-tags: 
+categories:
+- 博客设置
+tags:
 - Hexo
+- Annie
 - Git
-- 博客
-- 入门
-- 环境变量
+- Blog
+- Path
 abbrlink: 27710
-
 ---
 
-> 折腾了一天，终于搞定了自己的个人博客网站
+折腾了一天，终于搞定了自己的个人博客网站。
+其实也不是说建立多难，只是想要好看、好用啥的。
+
+
 <!-- more -->
 
-
-##### 1. github 建立个人博客仓库
+##### github 建立个人博客仓库
 >仓库名： *用户名.github.io*   
 > 例： [lansm.github.io](thaddeus.ink)
 
-##### 2.安装git
+##### 安装git
 > * 安装成功后，将Git与GitHub帐号绑定设置user.name和user.email配置信息
 > * 生成ssh密钥文件，直接三个回车即可，默认不需要设置密码
 > * 找到生成的.ssh的文件夹中的id_rsa.pub密钥，将内容全部复制，打开GitHub_Settings_keys 页面，新建new SSH Key
@@ -35,12 +35,12 @@ ssh-keygen -t rsa -C "你的GitHub注册邮箱"
 ssh git@github.com
 ```
 
-##### 3.安装[Node.js](https://nodejs.org/en/download/)
+##### 安装[Node.js](https://nodejs.org/en/download/)
 
 >检测Node.js是否安装成功     ` node -v `
 >检测npm是否安装成功     ` npm -v `
 
-##### 4.安装Hexo
+##### 安装Hexo
 
 建立文件夹存放Hexo框架与以后你自己发布的网页
 通过命令行进入文件夹（或者文件夹中shift+右键）
@@ -86,7 +86,7 @@ hexo d 就是部署网站命令，d是deploy的缩写。
 到这里其实已经完成博客的框架搭建，可以自行探索了
 但是为了更简单+更美观： **选择主题安装配置**
 
-##### 5.安装配置主题
+##### 安装配置主题
 
 以本站主题为例：
 ```git
@@ -95,7 +95,7 @@ git clone https://github.com/Sariay/hexo-theme-Annie.git
 将站点目录下的_config.yml文件中的theme字段修改为Annie。
 确保themes目录下存在名为Annie的文件夹（或hexo-theme-Annie）
 
-##### 6.其它说明
+##### 其它说明
 * [star主题库查看实现功能~Annie主题github](https://github.com/Sariay/hexo-theme-Annie)
 * [主题原作者Blog~Annie主题使用说明详情](https://sariay.github.io/2018/08/27/Annie主题使用说明/)
 * [[知乎]Github+Hexo 搭建个人博客(包括域名绑定)](https://zhuanlan.zhihu.com/p/26625249)
@@ -146,8 +146,8 @@ Annie
         └─vibrant
 ```
 
-##### 7.其它问题解决
-1. 关于网站统计问题
+##### 其它问题解决
+###### 关于网站统计问题
 >我自己在配置百度统计的时候直接放上去ID是没有反应的，获取不到，不知道为什么
 >最后解决方案是寻找网站html页面模版，在`\layout\_partial`找到`footer.ejs`
 >查看里面的统计模块我直接在busuanzi下面照葫芦画瓢加了一行
@@ -155,7 +155,7 @@ Annie
 >然后按`\plugin\statistics`找到不同统计设置文件，直接在里面增加自己的 百度统计ID[^1]。
 >（类似的问题也可以这样尝试自己解决）
 
-2. 关于域名解析后开启CDN加速问题（阿里云）
+###### 关于域名解析后开启CDN加速问题（阿里云）
 >域名解析按照上面链接食用即可，关于CDN加速，阿里云内都有详细介绍，如：[如何配置CNAME?](https://help.aliyun.com/document_detail/64928.html?spm=5176.11220512.0.0.2e9372f0EMk9wR)
 >很坑爹的是阿里云里面的动态加速不要开！不要开！不要开！
 >我一打开它就页面重定向过多报错，找了老久才发现原因。
@@ -164,7 +164,7 @@ Annie
 >不使用证书的话浏览器地址栏左侧可能会提示你该网站不安全，
 >有的甚至还会在打开网页的时候必须手动点击来确认打开（比如谷歌）
 
-3. 网站根目录有些文件需要排除出渲染覆盖范围
+###### 网站根目录有些文件需要排除出渲染覆盖范围
 >在站点配置文件 `_config.yml` 中进行修改
 >注意排除的是 `/source/` 文件夹下需要排除的文件：
 >（最好是将不需要被访问的都屏蔽）
@@ -179,14 +179,14 @@ skip_render:
   - #上面 Baidu 和 Google 是用于站点收录的
 ```
 
-4. 部分Markdown语法渲染出错
+###### 部分Markdown语法渲染出错
 >我自己学习写Markdown的时候使用的是[VNote](https://tamlok.github.io/vnote/zh_cn/)编辑器来写的
 >在它的默认渲染下脚注表情等等显示很正常，但是问题来了
 >部署到服务器上后，网页上的脚注就是显示不正常，总是会被解析成超链接
 >搜了半天超链接和都是没有用的，最后想到编辑器有选择渲染器的选项栏
 >拨云见日=-=，[npm官方hexo-renderer-markdown-it插件](https://github.com/hexojs/hexo-renderer-markdown-it/wiki)
 
-##### 8.推广链接
+##### 推广链接
 
 * [CZLisyx - 浮生志](https://www.singlelovely.cn/)
 * [有格调](https://www.ugediao.com/)

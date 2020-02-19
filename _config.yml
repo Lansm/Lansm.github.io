@@ -4,8 +4,8 @@
 
 # Site
 title: Ti'an 
-subtitle: I'm who am I, I'm the Ti'an.
-description: I'm who am I, I'm the Ti'an.
+subtitle: I'm who I am, I'm the Ti'an.
+description: I'm who I am, I'm the Ti'an.
 keywords: Ti'an,兲,Thaddeus，Blog
 author: Thaddeus
 language: zh-CN
@@ -84,6 +84,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: Next
+# theme: Annie
 
 
 ##sitemap
@@ -115,33 +116,70 @@ search:
 
 ###  RSS订阅插件
 # npm install hexo-generator-feed --save
-feed:
-    type: atom
-    path: atom.xml
-    limit: 20
+# feed:
+#     type: atom
+#     path: atom.xml
+#     limit: 20
 
 
 
 
 # Markdown-it config
-## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
-# markdown:
-#   render:
-#     html: true
-#     xhtmlOut: false
-#     breaks: true
-#     linkify: true
-#     typographer: true
-#     quotes: '“”‘’'
-#   plugins:
-#     - markdown-it-abbr
-#     - markdown-it-footnote
-#     - markdown-it-ins
-#     - markdown-it-sub
-#     - markdown-it-sup
-#   anchors:
-#     level: 2
-#     collisionSuffix: 'v'
-#     permalink: true
-#     permalinkClass: header-anchor
-#     permalinkSymbol: ¶
+# Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  plugins:
+    - markdown-it-abbr
+    - markdown-it-footnote
+    - markdown-it-ins
+    - markdown-it-sub
+    - markdown-it-sup
+    - markdown-it-task-lists
+  anchors:
+    level: 2
+    collisionSuffix: 'v'
+    permalink: true
+    permalinkClass: header-anchor
+    permalinkSymbol: ¶
+
+
+# 窗口隐藏和可见时候 改标题和图标
+# Change title and favicon when window is hidden and visible.
+title_change:
+  enable: true
+
+  # Enabling this feature on non-desktop devices may not be a good choice, but it depends on you.
+  onmobile: false
+
+  # Enable random title or not.
+  # Basically `random: true` means you have several titles to display and `random: false` means you have only one title to display.
+  # When `random: true`, YOU MUST FOLLOW the format which has been commented in two title options below.
+  # When `random: false`, please fill in the same line of the title option, like `title: one title`.
+  random: true
+
+  # Restore the original title after the specified time in milliseconds.
+  timeout: 2019
+
+  # Options when window is hidden.
+  hidden:
+    favicon: /images/tian_updown.png
+    title:
+      - 404
+      - φ(*￣0￣)
+      - Waiting for you.
+
+  # Options when window is visible.
+  visible:
+    favicon: /images/tian.png
+    title:
+      - 200
+      - (✿◡‿◡)
+      - Welcome back!
+
+
