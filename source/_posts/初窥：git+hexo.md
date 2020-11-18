@@ -99,7 +99,7 @@ git clone https://github.com/Sariay/hexo-theme-Annie.git
 * [star主题库查看实现功能~Annie主题github](https://github.com/Sariay/hexo-theme-Annie)
 * [主题原作者Blog~Annie主题使用说明详情](https://sariay.github.io/2018/08/27/Annie主题使用说明/)
 * [[知乎]Github+Hexo 搭建个人博客(包括域名绑定)](https://zhuanlan.zhihu.com/p/26625249)
-* [备份hexo放置换电脑掉数据之类](https://blog.csdn.net/wxl1555/article/details/79293159)
+* [备份hexo防止换电脑掉数据之类](https://blog.csdn.net/wxl1555/article/details/79293159)
 * [SEO和站点加速](https://www.jianshu.com/p/6f1e53b70a48)
 * [Hexo提交百度谷歌收录站点](http://www.mamicode.com/info-detail-2455645.html)
 * [Markdown基础语法-Github](https://help.github.com/en/articles/basic-writing-and-formatting-syntax#using-emoji) 
