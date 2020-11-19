@@ -6,16 +6,16 @@
 # name || icon:
 #   name || link || icon
 
-# menu:
-#   首页: / || fas fa-home
-#   时光轴: /archives/ || fas fa-archive
-#   标签: /tags/ || fas fa-tags
-#   分类: /categories/ || fas fa-folder-open
-#   # List||fas fa-list:
-#   音乐: /music/ || fas fa-music
-#   #   - Movie || /movies/ || fas fa-video
-#   友链: /link/ || fas fa-link
-#   关于: /about/ || fas fa-heart
+menu:
+  首页: / || fas fa-home
+  时光轴: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  # List||fas fa-list:
+  音乐: /music/ || fas fa-music
+  #   - Movie || /movies/ || fas fa-video
+  友链: /link/ || fas fa-link
+  关于: /about/ || fas fa-heart
   # Home: / || fas fa-home
   # Archives: /archives/ || fas fa-archive
   # Tags: /tags/ || fas fa-tags
@@ -90,25 +90,26 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /self_images/tian.png
+favicon: http://lansm-github-io.test.upcdn.net/self_images/tian.png
+
 
 # Avatar (頭像)
 avatar:
-  img: /self_images/tian.png
+  img: http://lansm-github-io.test.upcdn.net/self_images/tian.png
   effect: true
 
 # The banner image of home page
-index_img: /self_images/seria.jpg
+index_img: http://lansm-github-io.test.upcdn.net/self_images/seria.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: /self_images/die.jpg
+default_top_img: http://lansm-github-io.test.upcdn.net/self_images/die.jpg
 
 # The banner image of archive page
-archive_img: /self_images/saber.jpg
+archive_img: http://lansm-github-io.test.upcdn.net/self_images/saber.jpg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: /self_images/curse_dnf.jpg
+tag_img: http://lansm-github-io.test.upcdn.net/self_images/curse_dnf.jpg
 
 # The banner image of tag page
 # format:
@@ -119,7 +120,7 @@ tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: /self_images/reborn_dnf.jpg
+category_img: http://lansm-github-io.test.upcdn.net/self_images/reborn_dnf.jpg
 
 # The banner image of category page
 # format:
@@ -141,23 +142,23 @@ cover:
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
-    - /self_images/17_Akali_8k.jpg
-    - /self_images/31_Gwent_8k.jpg
-    - /self_images/36_Ashe_4k.jpg
-    - /self_images/Ash.jpg
-    - /self_images/dva_4k.jpg
+    - http://lansm-github-io.test.upcdn.net/self_images/17_Akali_8k.jpg
+    - http://lansm-github-io.test.upcdn.net/self_images/31_Gwent_8k.jpg
+    - http://lansm-github-io.test.upcdn.net/self_images/36_Ashe_4k.jpg
+    - http://lansm-github-io.test.upcdn.net/self_images/Ash.jpg
+    - http://lansm-github-io.test.upcdn.net/self_images/dva_4k.jpg
 
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
-  flink: /self_images/6_waterlight.jpg
-  post_page: /self_images/reborn_dnf.jpg
+  flink: http://lansm-github-io.test.upcdn.net/self_images/6_waterlight.jpg
+  post_page: http://lansm-github-io.test.upcdn.net/self_images/reborn_dnf.jpg
 
 # A simple 404 page
 error_404:
   enable: true
   subtitle: '新的华点已被发现，建议给个建议'
-  background: /self_images/curse_dnf.jpg
+  background: http://lansm-github-io.test.upcdn.net/self_images/curse_dnf.jpg
 
 post_meta:
   page: # Home Page
@@ -209,10 +210,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: /self_images/pay_wechat.png
+    - img: http://lansm-github-io.test.upcdn.net/self_images/pay_wechat.png
       link:
       text: 微信
-    - img: /self_images/pay_ali.jpg
+    - img: http://lansm-github-io.test.upcdn.net/self_images/pay_ali.jpg
       link:
       text: 支付宝
 
@@ -398,7 +399,7 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text: <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank" rel="noopener noreferrer">Powered by <img src="self_images/upyun_logos/又拍云_logo6.png" alt="又拍云" align="top" height="28"></a> | 鄂ICP备17010643号-1
+  custom_text: <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank" rel="noopener noreferrer">Powered by <img src="http://lansm-github-io.test.upcdn.net/self_images/upyun_logos/又拍云_logo6.png" alt="又拍云" align="top" height="28"></a> | 鄂ICP备17010643号-1
   copyright: true # Copyright of theme and framework
   ICP: # Chinese ICP License
     enable: true
@@ -502,10 +503,10 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(/self_images/ud_deathknight.jpg)
+background: url(http://lansm-github-io.test.upcdn.net/self_images/ud_deathknight.jpg)
 
 # Footer Background
-footer_bg: /self_images/deathknight.jpg
+footer_bg: http://lansm-github-io.test.upcdn.net/self_images/deathknight.jpg
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom: 180px
@@ -564,18 +565,30 @@ click_heart:
 ClickShowText:
   enable: true
   text:
-    - 赵客缦胡缨，吴钩霜雪明
-    - 银鞍照白马，飒沓如流星
-    - 十步杀一人，千里不留行
-    - 事了拂衣去，深藏身与名
-    - 闲过信陵饮，脱剑膝前横
-    - 将炙啖朱亥，持觞劝侯嬴
-    - 三杯吐然诺，五岳倒为轻
-    - 眼花耳热后，意气素霓生
-    - 救赵挥金槌，邯郸先震惊
-    - 千秋二壮士，烜赫大梁城
-    - 纵死侠骨香，不惭世上英
-    - 谁能书阁下，白首太玄经
+    - 赵客缦胡缨
+    - 吴钩霜雪明
+    - 银鞍照白马
+    - 飒沓如流星
+    - 十步杀一人
+    - 千里不留行
+    - 事了拂衣去
+    - 深藏身与名
+    - 闲过信陵饮
+    - 脱剑膝前横
+    - 将炙啖朱亥
+    - 持觞劝侯嬴
+    - 三杯吐然诺
+    - 五岳倒为轻
+    - 眼花耳热后
+    - 意气素霓生
+    - 救赵挥金槌
+    - 邯郸先震惊
+    - 千秋二壮
+    - 烜赫大梁城
+    - 纵死侠骨香
+    - 不惭世上英
+    - 谁能书阁下
+    - 白首太玄经
     # - I
     # - LOVE
     # - YOU
@@ -835,18 +848,18 @@ pangu:
 # https://github.com/verlok/lazyload
 lazyload:
   enable: false
-  post: /self_images/loading.gif
+  post: http://lansm-github-io.test.upcdn.net/self_images/loading.gif
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
 # ---------------
 pwa:
   enable: true
-  manifest: /image/pwa/manifest.json
-  apple_touch_icon: /image/pwa/apple-touch-icon.png
-  favicon_32_32: /image/pwa/32.png
-  favicon_16_16: /image/pwa/16.png
-  mask_icon: /image/pwa/safari-pinned-tab.svg
+  manifest: /manifest.json
+  # apple_touch_icon: 
+  # favicon_32_32: /image/pwa/32.png
+  # favicon_16_16: /image/pwa/16.png
+  # mask_icon: /image/pwa/safari-pinned-tab.svg
 
 # Disable Baidu transformation on mobile devices (禁止百度轉碼)
 disable_baidu_transformation: true

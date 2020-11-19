@@ -39,6 +39,7 @@ code_dir: downloads/code  # 代码目录
 i18n_dir: :lang 
 skip_render:    # 被复制到public而不进行渲染
   - README.md
+  - CNAME
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -104,9 +105,9 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-include: 
-exclude: 
-ignore: 
+# include: 
+# exclude: 
+# ignore: 
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
@@ -132,39 +133,39 @@ search:
   content: true
 
 # RSS hexo-generator-feed
-feed:
-  enable: true
-  type: atom
-  path: atom.xml
-  limit: 20
-  hub:
-  content:
-  content_limit: 140
-  content_limit_delim: ' '
-  order_by: -date
-  icon: icon.png
-  autodiscovery: true
-  template:
+# feed:
+#   enable: true
+#   type: atom
+#   path: atom.xml
+#   limit: 20
+#   hub:
+#   content:
+#   content_limit: 140
+#   content_limit_delim: ' '
+#   order_by: -date
+#   icon: icon.png
+#   autodiscovery: true
+#   template:
 
 # hexo-filter-nofollow
-nofollow:
-  enable: true
-  field: site
-  exclude:
-    - ''
-    - ''
+# nofollow:
+#   enable: true
+#   field: site
+#   exclude:
+#     - ''
+#     - ''
 
 # hexo-generator-sitemap
-sitemap:
-  path: sitemap.xml
-  # template: ./sitemap_template.xml
-  rel: false
-  tags: true
-  categories: true
+# sitemap:
+#   path: sitemap.xml
+#   # template: ./sitemap_template.xml
+#   rel: false
+#   tags: true
+#   categories: true
 
 # baidusitemap
-baidusitemap:
-  path: baidusitemap.xml
+# baidusitemap:
+#   path: baidusitemap.xml
 
 
 # PWA
@@ -172,7 +173,7 @@ baidusitemap:
 offline:
   maximumFileSizeToCacheInBytes: 10485760 # 缓存的最大文件大小，以字节为单位
   staticFileGlobs:
-    - public/**/*.{js,html,css,png,jpg,jpeg,gif,svg,webp,eot,ttf,woff,woff2,xml}
+    - public/**/*.{js,html,css,png,jpg,jpeg,gif,svg,webp,eot,ttf,woff,woff2}
   # 静态文件合集，如果你的站点使用了例如webp格式的文件，请将文件类型添加进去。
   stripPrefix: public
   verbose: true

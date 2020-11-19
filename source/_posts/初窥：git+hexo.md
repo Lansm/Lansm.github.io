@@ -2,15 +2,15 @@
 title: 初窥：git+hexo
 date: 2020-5-20
 categories:
-- 博客设置
+  - 博客设置
 tags:
-- Hexo
-- Annie
-- Git
-- Blog
-- Path
+  - Hexo
+  - Annie
+  - Git
+  - Blog
+  - Path
 description: First Blood
-abbrlink: 27710
+abbrlink: 992bb363
 ---
 
 折腾了一天，终于搞定了自己的个人博客网站。
