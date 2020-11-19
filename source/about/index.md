@@ -1,5 +1,5 @@
 ---
-title: About
+title: 关于
 date: 2020-1-25 13:14:00
 layout: about
 type: about

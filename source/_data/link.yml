@@ -1,0 +1,39 @@
+- class_name: 友情链接
+  class_desc: 那些花儿
+  link_list:
+    - name: CZLisyx
+      link: https://www.singlelovely.cn/
+      avatar: https://www.singlelovely.cn/images/head.png
+      descr: 终不似，少年游
+    - name: Ugediao
+      link: https://www.ugediao.com/
+      avatar: https://www.ugediao.com/apple-touch-icon.png
+      descr: 想给你看没发出光的金子
+    - name: Vedfolnir
+      link: https://c1oudust.cn/
+      avatar: https://c1oudust.cn/images/m.png?v=6.0.4
+      descr: 灵魂,躁动不安...
+    - name: 私塾学者
+      link: https://i7xy.cn/
+      avatar: https://i7xy.cn/images/faceImage.png
+      descr: 前端私塾
+    - name: Sariay
+      link: https://sariay.github.io/
+      avatar: https://sariay.github.io/img/favicon.ico
+      descr: 人生若只如初见
+
+# - class_name: 网站
+#   class_desc: 值得推荐的网站
+#   link_list:
+#     - name: Youtube
+#       link: https://www.youtube.com/
+#       avatar: https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png
+#       descr: 视频网站
+#     - name: Weibo
+#       link: https://www.weibo.com/
+#       avatar: https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png
+#       descr: 中国最大社交分享平台
+#     - name: Twitter
+#       link: https://twitter.com/
+#       avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
+#       descr: 社交分享平台

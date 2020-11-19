@@ -1,6 +1,6 @@
 ---
 title: 初窥：git+hexo
-date: 2020-1-26
+date: 2020-5-20
 categories:
 - 博客设置
 tags:
@@ -9,6 +9,7 @@ tags:
 - Git
 - Blog
 - Path
+description: First Blood
 abbrlink: 27710
 ---
 
@@ -152,7 +153,8 @@ Annie
 >最后解决方案是寻找网站html页面模版，在`\layout\_partial`找到`footer.ejs`
 >查看里面的统计模块我直接在busuanzi下面照葫芦画瓢加了一行
 >`<%- partial('plugin/statistics', {type: 'baidu-analysis'}) %>`
->然后按`\plugin\statistics`找到不同统计设置文件，直接在里面增加自己的 百度统计ID[^1]。
+>然后按`\plugin\statistics`找到不同统计设置文件，直接在里面增加自己的百度统计ID。<br>
+>百度统计的代码获取中有一行`hm.src = "https://hm.baidu.com/hm.js?a087f930b192cdc0461708562e128e6b";`其中`hm.js?`后面的就是自己的百度统计ID<br>
 >（类似的问题也可以这样尝试自己解决）
 
 ###### 关于域名解析后开启CDN加速问题（阿里云）
@@ -194,6 +196,3 @@ skip_render:
 * [Sariay新的Hexo相册主题](http://gallery.sariay.me/)
 
 
-[^1]: 百度统计的代码获取中有一行
-`hm.src = "https://hm.baidu.com/hm.js?a087f930b192cdc0461708562e128e6b";`
-其中`hm.js?`后面的就是自己的百度统计ID

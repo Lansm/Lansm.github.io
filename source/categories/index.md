@@ -1,5 +1,5 @@
 ---
-title: categories
+title: 分类
 date: 2019-06-17 23:52:33
 layout: categories
 type: categories

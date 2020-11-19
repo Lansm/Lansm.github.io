@@ -12,18 +12,22 @@ language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
 url: http://thaddeus.ink
 root: /
-## 按照日期归档分类
+## 建议不要按照日期归档分类
 #permalink: :year/:month/:day/:title/  # 默认永久链接冗长，title中存在中文字符。
 #permalink: :id.html # 尽量短，层次少，全小写，中划线连字，具有描述性，包含关键词
-
+# permalink_defaults:
 permalink: post/:abbrlink.html   # 生成唯一链接
 permalink_defaults:
 abbrlink:
   alg: crc32  # 算法：crc16(default) and crc32
-  rep: dec    # 进制：dec(default) and hex
+  rep: hex    # 进制：dec(default) and hex
+
+pretty_urls:
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source  # 源文件夹，内容存储 
@@ -34,25 +38,34 @@ category_dir: categories  # 分类目录
 code_dir: downloads/code  # 代码目录
 i18n_dir: :lang 
 skip_render:    # 被复制到public而不进行渲染
-  - CNAME
-  - google007a6d66e70d8be5.html
   - README.md
-  - robots.txt
+
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
+# auto_spacing: false 中英文之间加入空格
 titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
-filename_case: 0
-render_drafts: false
-post_asset_folder: true
-relative_link: false
-future: true
-highlight:
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ''
+filename_case: 0  # 把文件名转换为 1 小写 2 大写
+render_drafts: false # 显示草稿
+post_asset_folder: false # 启用Asset文件夹
+relative_link: false #把链接改为与根目录相对位置
+future: true  # 显示未来的文章
+highlight:  # 代码块设置 Highlight.js
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace:
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:    # 代码块设置 PrismJS
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ''
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -62,11 +75,15 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
-  
-# Category & Tag
+
+# Category & Tag  
 default_category: uncategorized
 category_map:
 tag_map:
+
+# Metadata elements
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -74,112 +91,96 @@ tag_map:
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: 'date'
+# mtime 使用文件的最后修改时间
+# date 推荐可被用于Git工作流
+# empty 不使用updated
 
 # Pagination
 ## Set per_page to 0 to disable pagination
 per_page: 10
 pagination_dir: page
 
+# Include / Exclude file(s)
+## include:/exclude: options only apply to the 'source/' folder
+include: 
+exclude: 
+ignore: 
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Next
-# theme: Annie
-
-
-##sitemap
-baidusitemap:
-    path: baidusitemap.xml
-sitemap:
-    path: sitemap.xml
+theme: butterfly
+# theme: landscape
+# theme_config: _config.next.yml
 
 # Deployment
-## Docs: https://hexo.io/docs/deployment.html
+## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
   repo: https://github.com/Lansm/Lansm.github.io.git
   branch: master
 
+aplayer:
+  meting: true
+  asset_inject: false
 
-# search:
-#   path: search.json
-#   zipPath: search.zip
-#   versionPath: searchVersion.txt
-#   field: post
-  #field: post, page or all
 search:
   path: search.xml
-  field: post
-  format: html
-  limit: 10000
+  field: all
+  content: true
 
-
-###  RSS订阅插件
-# npm install hexo-generator-feed --save
-# feed:
-#     type: atom
-#     path: atom.xml
-#     limit: 20
-
-
-
-
-# Markdown-it config
-# Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
-markdown:
-  render:
-    html: true
-    xhtmlOut: false
-    breaks: true
-    linkify: true
-    typographer: true
-    quotes: '“”‘’'
-  plugins:
-    - markdown-it-abbr
-    - markdown-it-footnote
-    - markdown-it-ins
-    - markdown-it-sub
-    - markdown-it-sup
-    - markdown-it-task-lists
-  anchors:
-    level: 2
-    collisionSuffix: 'v'
-    permalink: true
-    permalinkClass: header-anchor
-    permalinkSymbol: ¶
-
-
-# 窗口隐藏和可见时候 改标题和图标
-# Change title and favicon when window is hidden and visible.
-title_change:
+# RSS hexo-generator-feed
+feed:
   enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:
 
-  # Enabling this feature on non-desktop devices may not be a good choice, but it depends on you.
-  onmobile: false
+# hexo-filter-nofollow
+nofollow:
+  enable: true
+  field: site
+  exclude:
+    - ''
+    - ''
 
-  # Enable random title or not.
-  # Basically `random: true` means you have several titles to display and `random: false` means you have only one title to display.
-  # When `random: true`, YOU MUST FOLLOW the format which has been commented in two title options below.
-  # When `random: false`, please fill in the same line of the title option, like `title: one title`.
-  random: true
+# hexo-generator-sitemap
+sitemap:
+  path: sitemap.xml
+  # template: ./sitemap_template.xml
+  rel: false
+  tags: true
+  categories: true
 
-  # Restore the original title after the specified time in milliseconds.
-  timeout: 2019
+# baidusitemap
+baidusitemap:
+  path: baidusitemap.xml
 
-  # Options when window is hidden.
-  hidden:
-    favicon: /images/tian_updown.png
-    title:
-      - 404
-      - φ(*￣0￣)
-      - Waiting for you.
 
-  # Options when window is visible.
-  visible:
-    favicon: /images/tian.png
-    title:
-      - 200
-      - (✿◡‿◡)
-      - Welcome back!
+# PWA
+# offline config passed to sw-precache.
+offline:
+  maximumFileSizeToCacheInBytes: 10485760 # 缓存的最大文件大小，以字节为单位
+  staticFileGlobs:
+    - public/**/*.{js,html,css,png,jpg,jpeg,gif,svg,webp,eot,ttf,woff,woff2,xml}
+  # 静态文件合集，如果你的站点使用了例如webp格式的文件，请将文件类型添加进去。
+  stripPrefix: public
+  verbose: true
+  runtimeCaching:
+    # CDNs - should be cacheFirst, since they should be used specific versions so should not change
+    - urlPattern: /* # 如果你需要加载CDN资源，请配置该选项，如果没有，可以不配置。
+      handler: cacheFirst
+      options:
+        origin: thaddeus.ink # 可替换成你的 url
 
 
