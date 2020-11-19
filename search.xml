@@ -89,6 +89,17 @@
     
     
     <entry>
+      <title>link</title>
+      <link href="link/index.html"/>
+      <url>link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>artitalk</title>
       <link href="artitalk/index.html"/>
       <url>artitalk/index.html</url>
@@ -111,22 +122,11 @@
     
     
     <entry>
-      <title>link</title>
-      <link href="link/index.html"/>
-      <url>link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>音乐</title>
       <link href="playlist/index.html"/>
       <url>playlist/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-wSOZyBuR" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="523845661" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"    ></div>]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-gHURkTuA" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="523845661" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"    ></div>]]></content>
       
     </entry>
     
