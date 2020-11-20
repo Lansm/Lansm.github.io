@@ -90,7 +90,7 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://img.thaddeus.ink/self_images/tian.png
+favicon: https://img.thaddeus.ink/self_images/pwaicons/tian_512.png
 
 # Avatar (頭像)
 avatar:
@@ -273,7 +273,7 @@ comments:
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Utterances/Facebook Comments
   use:
   - Valine
-  - Twikoo
+  # - Twikoo
   # - Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -563,8 +563,8 @@ fireworks:
 
 # Mouse click effects: Heart symbol (鼠標點擊效果: 愛心)
 click_heart:
-  enable: true
-  mobile: true
+  enable: false
+  mobile: false
 
 # Mouse click effects: words (鼠標點擊效果: 文字)
 ClickShowText:
