@@ -145,7 +145,13 @@ cover:
     - https://img.thaddeus.ink/self_images/31_Gwent_8k.jpg
     - https://img.thaddeus.ink/self_images/36_Ashe_4k.jpg
     - https://img.thaddeus.ink/self_images/Ash.jpg
+    - https://img.thaddeus.ink/self_images/deathknight.jpg
+    - https://img.thaddeus.ink/self_images/die.jpg
     - https://img.thaddeus.ink/self_images/dva_4k.jpg
+    - https://img.thaddeus.ink/self_images/jeer.jpg
+    - https://img.thaddeus.ink/self_images/ud_deathknight.jpg
+    - https://img.thaddeus.ink/self_images/curse_dnf.jpg
+    - https://img.thaddeus.ink/self_images/reborn_dnf.jpg
 
 
 # Replace Broken Images (替換無法顯示的圖片)
@@ -419,7 +425,7 @@ google_analytics:
 
 # Tencent Analytics ID
 # https://mta.qq.com
-tencent_analytics:
+tencent_analytics: 500734160
 
 # CNZZ Analytics
 # https://www.umeng.com/
@@ -455,11 +461,11 @@ bing_site_verification:
 
 # Baidu Webmaster tools verification setting
 # See: https://ziyuan.baidu.com/site/
-baidu_site_verification:
+baidu_site_verification: code-gTw0apKNoo
 
 # 360 Webmaster tools verification setting
 # see https://zhanzhang.so.com/
-qihu_site_verification:
+qihu_site_verification: ce745f2b78adf0aaf5822f96234d2657
 
 # Yandex Webmaster tools verification setting
 # see https://webmaster.yandex.com/
@@ -879,7 +885,7 @@ inject:
     - '<style type="text/css">#toggle-sidebar {bottom: 80px}</style>'
   bottom:
     # - <script src="xxxx"></script>
-    - <div class="aplayer no-destroy" data-id="1829895799" data-server="tencent" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="true" muted></div>
+    - <div class="aplayer no-destroy" data-id="7787176167" data-server="tencent" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="true" muted></div>
 
 
 # CDN

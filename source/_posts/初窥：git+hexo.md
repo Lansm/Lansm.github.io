@@ -8,7 +8,6 @@ tags:
   - Annie
   - Git
   - Blog
-  - Path
 description: First Blood
 abbrlink: 992bb363
 ---
@@ -19,42 +18,42 @@ abbrlink: 992bb363
 
 <!-- more -->
 
-##### github 建立个人博客仓库
+### github 建立个人博客仓库
 >仓库名： *用户名.github.io*   
 > 例： [lansm.github.io](thaddeus.ink)
 
-##### 安装git
+#### 安装git
 > * 安装成功后，将Git与GitHub帐号绑定设置user.name和user.email配置信息
 > * 生成ssh密钥文件，直接三个回车即可，默认不需要设置密码
 > * 找到生成的.ssh的文件夹中的id_rsa.pub密钥，将内容全部复制，打开GitHub_Settings_keys 页面，新建new SSH Key
 > * 在Git Bash中检测GitHub公钥设置是否成功
 
-```
+```powershell
 git config --global user.name "你的GitHub用户名"
 git config --global user.email "你的GitHub注册邮箱"
 ssh-keygen -t rsa -C "你的GitHub注册邮箱"
 ssh git@github.com
 ```
 
-##### 安装[Node.js](https://nodejs.org/en/download/)
+#### 安装[Node.js](https://nodejs.org/en/download/)
 
->检测Node.js是否安装成功     ` node -v `
->检测npm是否安装成功     ` npm -v `
+>检测`Node.js`是否安装成功     ` node -v `
+>检测`npm`是否安装成功     ` npm -v `
 
-##### 安装Hexo
+#### 安装Hexo
 
-建立文件夹存放Hexo框架与以后你自己发布的网页
-通过命令行进入文件夹（或者文件夹中shift+右键）
-安装Hexo
-```
+建立文件夹存放`Hexo`框架与以后你自己发布的网页
+通过命令行进入文件夹（或者文件夹中`shift+右键`）
+安装`Hexo`
+```powershell
 npm install -g hexo-cli 
 ```
 初始化博客
-```
+```powershell
 hexo init blog
 ```
 为了检测我们的网站雏形，分别按顺序输入以下三条命令：
-```
+```powershell
 hexo new test_my_site
 hexo g
 hexo s
@@ -62,52 +61,52 @@ hexo s
 新建一篇博客文章+生成网页+在本地预览
 默认本地服务地址 ： [localhost:4000](localhost:4000)
 
-将我们的Hexo与GitHub关联起来，打开站点的配置文件_config.yml（自己建立的根目录下），翻到最后修改为：
-```
+将我们的`Hexo`与`GitHub`关联起来，打开站点的配置文件`_config.yml`（自己建立的根目录下），翻到最后修改为：
+```yml
 deploy:
     type: git
     repo:  #这里填入你之前在GitHub上创建仓库的完整路径，记得加上 .git
     branch: master
 ```
-上面是给hexo d 做相应配置，让hexo知道你要把blog部署在哪里
+上面是给`hexo d` 做相应配置，让`hexo`知道你要把blog部署在哪里
 
 安装Git部署插件
-```
+```powershell
 npm install hexo-deployer-git --save
 ```
-```
+```powershell
 hexo clean 
 hexo g 
 hexo d
 ```
-hexo d 就是部署网站命令，d是deploy的缩写。
+`hexo d` 就是部署网站命令，d是deploy的缩写。
 完成后，打开浏览器，在地址栏输入你的放置个人网站的仓库路径，即 用户名.github.io 
 例： [lansm.github.io](thaddeus.ink)
 
 到这里其实已经完成博客的框架搭建，可以自行探索了
-但是为了更简单+更美观： **选择主题安装配置**
+但是为了更简单+更美观： `选择HEXO主题安装`
 
-##### 安装配置主题
+### 安装配置主题
 
 以本站主题为例：
-```git
+```powershell
 git clone https://github.com/Sariay/hexo-theme-Annie.git
 ```
-将站点目录下的_config.yml文件中的theme字段修改为Annie。
-确保themes目录下存在名为Annie的文件夹（或hexo-theme-Annie）
+将站点目录下的`_config.yml`文件中的`theme`字段修改为`Annie`。
+确保`themes`目录下存在名为`Annie`的文件夹（或`hexo-theme-Annie`）
 
-##### 其它说明
+#### 其它说明
 * [star主题库查看实现功能~Annie主题github](https://github.com/Sariay/hexo-theme-Annie)
 * [主题原作者Blog~Annie主题使用说明详情](https://sariay.github.io/2018/08/27/Annie主题使用说明/)
 * [[知乎]Github+Hexo 搭建个人博客(包括域名绑定)](https://zhuanlan.zhihu.com/p/26625249)
-* [备份hexo防止换电脑掉数据之类](https://blog.csdn.net/wxl1555/article/details/79293159)
+* ~~[备份hexo防止换电脑掉数据之类](https://blog.csdn.net/wxl1555/article/details/79293159)~~**（有问题）** 详情请看 [新生：Butterfly主题更替](https://thaddeus.ink/post/98bd4fbb72)
 * [SEO和站点加速](https://www.jianshu.com/p/6f1e53b70a48)
 * [Hexo提交百度谷歌收录站点](http://www.mamicode.com/info-detail-2455645.html)
 * [Markdown基础语法-Github](https://help.github.com/en/articles/basic-writing-and-formatting-syntax#using-emoji) 
 * [Hexo官方Emoji插件使用说明](https://www.npmjs.com/package/hexo-article-emoji)
 * 通过主题将md文档显示在网页上时，不需要显示在网页的`README.md`注意通过站点配置过滤
-* 还有需要注意的是使用表情emoji在hexo中需要插件⊙﹏⊙
-* 配置过程中遇到其它问题可以根据自己的主题项目结构进行查看并个性化修改配置文件，下面是Annie项目结构：
+* 还有需要注意的是使用表情`emoji`在`hexo`中需要插件⊙﹏⊙
+* 配置过程中遇到其它问题可以根据自己的主题项目结构进行查看并个性化修改配置文件，下面是`Annie`项目结构：
 ```
 Annie
 ├─languages					#国际化语言支持
@@ -147,17 +146,17 @@ Annie
         └─vibrant
 ```
 
-##### 其它问题解决
-###### 关于网站统计问题
+### 其它问题解决
+#### 关于网站统计问题
 >我自己在配置百度统计的时候直接放上去ID是没有反应的，获取不到，不知道为什么
 >最后解决方案是寻找网站html页面模版，在`\layout\_partial`找到`footer.ejs`
 >查看里面的统计模块我直接在busuanzi下面照葫芦画瓢加了一行
 >`<%- partial('plugin/statistics', {type: 'baidu-analysis'}) %>`
->然后按`\plugin\statistics`找到不同统计设置文件，直接在里面增加自己的百度统计ID。<br>
->百度统计的代码获取中有一行`hm.src = "https://hm.baidu.com/hm.js?a087f930b192cdc0461708562e128e6b";`其中`hm.js?`后面的就是自己的百度统计ID<br>
+>然后按`\plugin\statistics`找到不同统计设置文件，直接在里面增加自己的百度统计ID。
+>百度统计的代码获取中有一行`hm.src = "https://hm.baidu.com/hm.js?a087f930b192cdc0461708562e128e6b";`其中`hm.js?`后面的就是自己的百度统计ID
 >（类似的问题也可以这样尝试自己解决）
 
-###### 关于域名解析后开启CDN加速问题（阿里云）
+#### 关于域名解析后开启CDN加速问题（阿里云）
 >域名解析按照上面链接食用即可，关于CDN加速，阿里云内都有详细介绍，如：[如何配置CNAME?](https://help.aliyun.com/document_detail/64928.html?spm=5176.11220512.0.0.2e9372f0EMk9wR)
 >很坑爹的是阿里云里面的动态加速不要开！不要开！不要开！
 >我一打开它就页面重定向过多报错，找了老久才发现原因。
@@ -166,12 +165,12 @@ Annie
 >不使用证书的话浏览器地址栏左侧可能会提示你该网站不安全，
 >有的甚至还会在打开网页的时候必须手动点击来确认打开（比如谷歌）
 
-###### 网站根目录有些文件需要排除出渲染覆盖范围
+#### 网站根目录有些文件需要排除出渲染覆盖范围
 >在站点配置文件 `_config.yml` 中进行修改
 >注意排除的是 `/source/` 文件夹下需要排除的文件：
 >（最好是将不需要被访问的都屏蔽）
 
-```
+```yml
 #directory
 skip_render:
   - README.md
@@ -181,14 +180,16 @@ skip_render:
   - #上面 Baidu 和 Google 是用于站点收录的
 ```
 
-###### 部分Markdown语法渲染出错
+#### 部分Markdown语法渲染出错
 >我自己学习写Markdown的时候使用的是[VNote](https://tamlok.github.io/vnote/zh_cn/)编辑器来写的
 >在它的默认渲染下脚注表情等等显示很正常，但是问题来了
 >部署到服务器上后，网页上的脚注就是显示不正常，总是会被解析成超链接
 >搜了半天超链接和都是没有用的，最后想到编辑器有选择渲染器的选项栏
 >拨云见日=-=，[npm官方hexo-renderer-markdown-it插件](https://github.com/hexojs/hexo-renderer-markdown-it/wiki)
 
-##### 推广链接
+最后建议还是不用这些工具，慢慢写着就记住了一些md语法
+
+### 推广链接
 
 * [CZLisyx - 浮生志](https://www.singlelovely.cn/)
 * [有格调](https://www.ugediao.com/)
