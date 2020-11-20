@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://thaddeus.ink/mainfest.json</loc>
+    
+    <lastmod>2020-11-20</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://thaddeus.ink/post/bd4fbb72</loc>
     
     <lastmod>2020-11-20</lastmod>
@@ -10,13 +17,6 @@
   
   <url>
     <loc>http://thaddeus.ink/playlist/</loc>
-    
-    <lastmod>2020-11-19</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://thaddeus.ink/mainfest.json</loc>
     
     <lastmod>2020-11-19</lastmod>
     
