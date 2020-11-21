@@ -41,9 +41,9 @@
     
     <category term="Blog" scheme="http://thaddeus.ink/tags/Blog/"/>
     
-    <category term="Git" scheme="http://thaddeus.ink/tags/Git/"/>
-    
     <category term="Butterfly" scheme="http://thaddeus.ink/tags/Butterfly/"/>
+    
+    <category term="Git" scheme="http://thaddeus.ink/tags/Git/"/>
     
     <category term="CDN" scheme="http://thaddeus.ink/tags/CDN/"/>
     
@@ -70,9 +70,9 @@
     
     <category term="Blog" scheme="http://thaddeus.ink/tags/Blog/"/>
     
-    <category term="Annie" scheme="http://thaddeus.ink/tags/Annie/"/>
-    
     <category term="Git" scheme="http://thaddeus.ink/tags/Git/"/>
+    
+    <category term="Annie" scheme="http://thaddeus.ink/tags/Annie/"/>
     
   </entry>
   
