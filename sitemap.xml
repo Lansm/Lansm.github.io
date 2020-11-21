@@ -109,7 +109,7 @@
   </url>
   
   <url>
-    <loc>http://thaddeus.ink/tags/Butterfly/</loc>
+    <loc>http://thaddeus.ink/tags/Annie/</loc>
     <lastmod>2020-11-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -117,6 +117,13 @@
   
   <url>
     <loc>http://thaddeus.ink/tags/Git/</loc>
+    <lastmod>2020-11-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://thaddeus.ink/tags/Butterfly/</loc>
     <lastmod>2020-11-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -131,13 +138,6 @@
   
   <url>
     <loc>http://thaddeus.ink/tags/%E5%8F%88%E6%8B%8D%E4%BA%91/</loc>
-    <lastmod>2020-11-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://thaddeus.ink/tags/Annie/</loc>
     <lastmod>2020-11-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
