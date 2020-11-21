@@ -10,6 +10,7 @@ tags:
   - Blog
 description: First Blood
 abbrlink: 992bb363
+cover: https://img.thaddeus.ink/self_images/anime_imgs/r240.jpg
 ---
 
 折腾了一天，终于搞定了自己的个人博客网站。
@@ -99,7 +100,7 @@ git clone https://github.com/Sariay/hexo-theme-Annie.git
 * [star主题库查看实现功能~Annie主题github](https://github.com/Sariay/hexo-theme-Annie)
 * [主题原作者Blog~Annie主题使用说明详情](https://sariay.github.io/2018/08/27/Annie主题使用说明/)
 * [[知乎]Github+Hexo 搭建个人博客(包括域名绑定)](https://zhuanlan.zhihu.com/p/26625249)
-* ~~[备份hexo防止换电脑掉数据之类](https://blog.csdn.net/wxl1555/article/details/79293159)~~**（有问题）** 详情请看 [新生：Butterfly主题更替](https://thaddeus.ink/post/98bd4fbb72)
+* ~~[备份hexo防止换电脑掉数据之类](https://blog.csdn.net/wxl1555/article/details/79293159)~~**（有问题）** 详情请看 [新生：Butterfly主题更替](https://thaddeus.ink/post/bd4fbb72)
 * [SEO和站点加速](https://www.jianshu.com/p/6f1e53b70a48)
 * [Hexo提交百度谷歌收录站点](http://www.mamicode.com/info-detail-2455645.html)
 * [Markdown基础语法-Github](https://help.github.com/en/articles/basic-writing-and-formatting-syntax#using-emoji) 

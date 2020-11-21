@@ -12,6 +12,7 @@ tags:
 abbrlink: bd4fbb72
 date: 2020-11-20 12:46:21
 description:
+cover: https://img.thaddeus.ink/self_images/anime_imgs/r233.png
 ---
 ### 重新启动
 疫情后大家都有着自己的经历，新的生活节奏或者人生路上的一些小插曲，对于我们的未来走向都有着一定的影响。
