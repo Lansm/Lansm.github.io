@@ -30,7 +30,7 @@ case source
   when 2
     script.
       function subtitleType () {
-        $.getJSON('https://v1.hitokoto.cn', function (data) {
+        $.getJSON('https://v1.hitokoto.cn/?c=b&c=a&c=c&c=d&c=h', function (data) {
           if (!{theme.subtitle.effect}) {
             var from = '出自 ' + data.from
             var sub = "!{theme.subtitle.sub}".length == 0 ? new Array() : "!{theme.subtitle.sub}".split(',')

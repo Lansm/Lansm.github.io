@@ -4,10 +4,10 @@
 
 # Site
 title: Ti'an 
-subtitle: I'm who I am, I'm the Ti'an.
-description: I'm who I am, I'm the Ti'an.
+subtitle: 层楼终究误少年，自由早晚乱余生
+description: 层楼终究误少年，自由早晚乱余生
 keywords: Ti'an,兲,Thaddeus，Blog
-author: Thaddeus
+author: Ti'an
 language: zh-CN
 timezone: Asia/Shanghai
 
@@ -185,4 +185,13 @@ offline:
       options:
         origin: thaddeus.ink # 可替换成你的 url
 
+# Security
+# encrypt: # hexo-blog-encrypt
+#   abstract: #有东西被加密了, 请输入密码查看.
+#   message: Sth need password. #您好, 这里需要密码.
+#   tags:
+#   # - {name: novel , password: tianaz}
+#   # template: <div id="hexo-blog-encrypt" data-wpm="{{hbeWrongPassMessage}}" data-whm="{{hbeWrongHashMessage}}"><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="{{hbeMessage}}" /><label>{{hbeMessage}}</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="{{hbeHmacDigest}}">{{hbeEncryptedData}}</script></div>
+#   wrong_pass_message: #抱歉, 这个密码看着不太对, 请再试试.
+#   wrong_hash_message: #抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
 
