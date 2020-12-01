@@ -65,14 +65,14 @@
   </url>
   
   <url>
-    <loc>http://thaddeus.ink/schedule/</loc>
+    <loc>http://thaddeus.ink/tags/</loc>
     
     <lastmod>2020-01-25</lastmod>
     
   </url>
   
   <url>
-    <loc>http://thaddeus.ink/tags/</loc>
+    <loc>http://thaddeus.ink/schedule/</loc>
     
     <lastmod>2020-01-25</lastmod>
     
@@ -102,13 +102,6 @@
   </url>
   
   <url>
-    <loc>http://thaddeus.ink/tags/Blog/</loc>
-    <lastmod>2020-12-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://thaddeus.ink/tags/Hello-World/</loc>
     <lastmod>2020-12-01</lastmod>
     <changefreq>daily</changefreq>
@@ -131,6 +124,13 @@
   
   <url>
     <loc>http://thaddeus.ink/tags/Git/</loc>
+    <lastmod>2020-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://thaddeus.ink/tags/Blog/</loc>
     <lastmod>2020-12-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
