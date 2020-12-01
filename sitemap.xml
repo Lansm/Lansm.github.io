@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://thaddeus.ink/post/59e9ebc3</loc>
+    
+    <lastmod>2020-11-30</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://thaddeus.ink/manifest.json</loc>
     
     <lastmod>2020-11-21</lastmod>
@@ -81,7 +88,7 @@
 
   <url>
     <loc>http://thaddeus.ink/</loc>
-    <lastmod>2020-11-21</lastmod>
+    <lastmod>2020-12-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -89,56 +96,63 @@
   
   <url>
     <loc>http://thaddeus.ink/tags/Hexo/</loc>
-    <lastmod>2020-11-21</lastmod>
+    <lastmod>2020-12-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://thaddeus.ink/tags/Blog/</loc>
-    <lastmod>2020-11-21</lastmod>
+    <lastmod>2020-12-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://thaddeus.ink/tags/Hello-World/</loc>
-    <lastmod>2020-11-21</lastmod>
+    <lastmod>2020-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://thaddeus.ink/tags/novel/</loc>
+    <lastmod>2020-12-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://thaddeus.ink/tags/Annie/</loc>
-    <lastmod>2020-11-21</lastmod>
+    <lastmod>2020-12-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://thaddeus.ink/tags/Git/</loc>
-    <lastmod>2020-11-21</lastmod>
+    <lastmod>2020-12-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://thaddeus.ink/tags/Butterfly/</loc>
-    <lastmod>2020-11-21</lastmod>
+    <lastmod>2020-12-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://thaddeus.ink/tags/CDN/</loc>
-    <lastmod>2020-11-21</lastmod>
+    <lastmod>2020-12-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://thaddeus.ink/tags/%E5%8F%88%E6%8B%8D%E4%BA%91/</loc>
-    <lastmod>2020-11-21</lastmod>
+    <lastmod>2020-12-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -147,7 +161,14 @@
   
   <url>
     <loc>http://thaddeus.ink/categories/%E5%8D%9A%E5%AE%A2%E8%AE%BE%E7%BD%AE/</loc>
-    <lastmod>2020-11-21</lastmod>
+    <lastmod>2020-12-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://thaddeus.ink/categories/%E9%9A%8F%E5%86%99/</loc>
+    <lastmod>2020-12-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

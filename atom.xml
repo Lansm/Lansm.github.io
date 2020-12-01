@@ -2,19 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Ti&#39;an</title>
   <icon>http://thaddeus.ink/icon.png</icon>
-  <subtitle>I&#39;m who I am, I&#39;m the Ti&#39;an.</subtitle>
+  <subtitle>层楼终究误少年，自由早晚乱余生</subtitle>
   <link href="http://thaddeus.ink/atom.xml" rel="self"/>
   
   <link href="http://thaddeus.ink/"/>
-  <updated>2020-11-20T04:46:21.000Z</updated>
+  <updated>2020-11-30T02:57:19.000Z</updated>
   <id>http://thaddeus.ink/</id>
   
   <author>
-    <name>Thaddeus</name>
+    <name>Ti&#39;an</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>你会成为你想的那个人</title>
+    <link href="http://thaddeus.ink/post/59e9ebc3"/>
+    <id>http://thaddeus.ink/post/59e9ebc3</id>
+    <published>2020-11-30T02:57:19.000Z</published>
+    <updated>2020-11-30T02:57:19.000Z</updated>
+    
+    
+    <summary type="html">Inspired by &quot;你会成为你想的那个人--梁博&quot;</summary>
+    
+    
+    
+    <category term="随写" scheme="http://thaddeus.ink/categories/%E9%9A%8F%E5%86%99/"/>
+    
+    
+    <category term="novel" scheme="http://thaddeus.ink/tags/novel/"/>
+    
+  </entry>
   
   <entry>
     <title>新生：Butterfly主题更替</title>
@@ -24,13 +43,7 @@
     <updated>2020-11-20T04:46:21.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;重新启动&quot;&gt;&lt;a href=&quot;#重新启动&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">Just write</summary>
     
     
     
