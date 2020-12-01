@@ -52,9 +52,9 @@
     
     <category term="Hexo" scheme="http://thaddeus.ink/tags/Hexo/"/>
     
-    <category term="Git" scheme="http://thaddeus.ink/tags/Git/"/>
-    
     <category term="Blog" scheme="http://thaddeus.ink/tags/Blog/"/>
+    
+    <category term="Git" scheme="http://thaddeus.ink/tags/Git/"/>
     
     <category term="Butterfly" scheme="http://thaddeus.ink/tags/Butterfly/"/>
     
@@ -81,11 +81,11 @@
     
     <category term="Hexo" scheme="http://thaddeus.ink/tags/Hexo/"/>
     
+    <category term="Blog" scheme="http://thaddeus.ink/tags/Blog/"/>
+    
     <category term="Annie" scheme="http://thaddeus.ink/tags/Annie/"/>
     
     <category term="Git" scheme="http://thaddeus.ink/tags/Git/"/>
-    
-    <category term="Blog" scheme="http://thaddeus.ink/tags/Blog/"/>
     
   </entry>
   
