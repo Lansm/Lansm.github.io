@@ -205,3 +205,18 @@ hide_posts:
   public_generators: [tag,category,archive,sitemap,feed]
   # 为隐藏的文章添加 noindex meta 标签，阻止搜索引擎收录
   noindex: false
+
+# douban 豆瓣爬取个人主页
+douban:
+  user: thaddeus_tian
+  builtin: true
+  book:
+    title: 'Books'
+    quote: '回忆是一条没有尽头的路'
+  movie:
+    title: 'Movies'
+    quote: '你连世界都没观过，哪来的世界观'
+  game:
+    title: 'Games'
+    quote: '我于杀戮之中盛放，亦如黎明中的花朵'
+  timeout: 10000 

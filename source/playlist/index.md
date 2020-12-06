@@ -2,6 +2,7 @@
 title: 音乐
 date: 2020-11-19 14:57:21
 type: "playlist"
+top_img: https://img.thaddeus.ink/self_images/silence.jpg
 ---
 
 {% meting "7787176167" "tencent" "playlist" "theme:#FF4081" "mode:circulation" "mutex:true" "listmaxheight:340px" "preload:auto" %}
