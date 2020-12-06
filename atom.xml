@@ -6,7 +6,7 @@
   <link href="http://thaddeus.ink/atom.xml" rel="self"/>
   
   <link href="http://thaddeus.ink/"/>
-  <updated>2020-11-20T04:46:21.000Z</updated>
+  <updated>2020-12-06T07:37:46.000Z</updated>
   <id>http://thaddeus.ink/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python数据分析和数据科学面试题</title>
+    <link href="http://thaddeus.ink/post/561ea8e9"/>
+    <id>http://thaddeus.ink/post/561ea8e9</id>
+    <published>2020-12-06T07:37:46.000Z</published>
+    <updated>2020-12-06T07:37:46.000Z</updated>
+    
+    
+    <summary type="html">《Python编程：从数据分析到数据科学》（朝乐门著）P485.Python数据分析和数据科学面试题</summary>
+    
+    
+    
+    <category term="Python" scheme="http://thaddeus.ink/categories/Python/"/>
+    
+    
+    <category term="Python" scheme="http://thaddeus.ink/tags/Python/"/>
+    
+    <category term="数据科学" scheme="http://thaddeus.ink/tags/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/"/>
+    
+    <category term="答题" scheme="http://thaddeus.ink/tags/%E7%AD%94%E9%A2%98/"/>
+    
+    <category term="阅读" scheme="http://thaddeus.ink/tags/%E9%98%85%E8%AF%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>新生：Butterfly主题更替</title>
@@ -33,9 +58,9 @@
     
     <category term="Hexo" scheme="http://thaddeus.ink/tags/Hexo/"/>
     
-    <category term="Blog" scheme="http://thaddeus.ink/tags/Blog/"/>
-    
     <category term="Git" scheme="http://thaddeus.ink/tags/Git/"/>
+    
+    <category term="Blog" scheme="http://thaddeus.ink/tags/Blog/"/>
     
     <category term="Butterfly" scheme="http://thaddeus.ink/tags/Butterfly/"/>
     
@@ -62,11 +87,11 @@
     
     <category term="Hexo" scheme="http://thaddeus.ink/tags/Hexo/"/>
     
-    <category term="Blog" scheme="http://thaddeus.ink/tags/Blog/"/>
-    
     <category term="Annie" scheme="http://thaddeus.ink/tags/Annie/"/>
     
     <category term="Git" scheme="http://thaddeus.ink/tags/Git/"/>
+    
+    <category term="Blog" scheme="http://thaddeus.ink/tags/Blog/"/>
     
   </entry>
   

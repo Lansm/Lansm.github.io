@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>Python数据分析和数据科学面试题</title>
+      <link href="post/561ea8e9.html"/>
+      <url>post/561ea8e9.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> Python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+            <tag> 数据科学 </tag>
+            
+            <tag> 答题 </tag>
+            
+            <tag> 阅读 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>新生：Butterfly主题更替</title>
       <link href="post/bd4fbb72.html"/>
       <url>post/bd4fbb72.html</url>
@@ -22,9 +53,9 @@
             
             <tag> Hexo </tag>
             
-            <tag> Blog </tag>
-            
             <tag> Git </tag>
+            
+            <tag> Blog </tag>
             
             <tag> Butterfly </tag>
             
@@ -57,11 +88,11 @@
             
             <tag> Hexo </tag>
             
-            <tag> Blog </tag>
-            
             <tag> Annie </tag>
             
             <tag> Git </tag>
+            
+            <tag> Blog </tag>
             
         </tags>
       
@@ -100,17 +131,6 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="about/index.html"/>
-      <url>about/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title></title>
       <link href="manifest.json"/>
       <url>manifest.json</url>
@@ -122,9 +142,9 @@
     
     
     <entry>
-      <title>artitalk</title>
-      <link href="artitalk/index.html"/>
-      <url>artitalk/index.html</url>
+      <title>关于</title>
+      <link href="about/index.html"/>
+      <url>about/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -133,9 +153,9 @@
     
     
     <entry>
-      <title>link</title>
-      <link href="link/index.html"/>
-      <url>link/index.html</url>
+      <title>Daily</title>
+      <link href="artitalk/index.html"/>
+      <url>artitalk/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -155,9 +175,20 @@
     
     
     <entry>
-      <title>Todo</title>
-      <link href="schedule/index.html"/>
-      <url>schedule/index.html</url>
+      <title>dailytalk</title>
+      <link href="dailytalk/index.html"/>
+      <url>dailytalk/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>link</title>
+      <link href="link/index.html"/>
+      <url>link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -170,7 +201,18 @@
       <link href="playlist/index.html"/>
       <url>playlist/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-HepAiDCj" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7787176167" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"    ></div><p>歌单详情：<a href="https://i.y.qq.com/n2/m/share/details/taoge.html?platform=11&appshare=android_qq&appversion=10060008&hosteuin=oKn5NKClNecl7n**&id=7787176167&ADTAG=qfshare">岚的歌单：七月の谎言</a><br>可复制链接导入其它音乐app</p>]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-IFyiowLQ" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7787176167" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"    ></div><p>歌单详情：<a href="https://i.y.qq.com/n2/m/share/details/taoge.html?platform=11&appshare=android_qq&appversion=10060008&hosteuin=oKn5NKClNecl7n**&id=7787176167&ADTAG=qfshare">岚的歌单：七月の谎言</a><br>可复制链接导入其它音乐app</p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Todo</title>
+      <link href="schedule/index.html"/>
+      <url>schedule/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
