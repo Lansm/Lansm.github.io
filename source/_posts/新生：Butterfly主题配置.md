@@ -15,6 +15,7 @@ description: Just write
 cover: https://img.thaddeus.ink/self_images/anime_imgs/r233.png
 ---
 ### 重新启动
+
 疫情后大家都有着自己的经历，新的生活节奏或者人生路上的一些小插曲，对于我们的未来走向都有着一定的影响。
 说这些，只是为自己这么久没有打开博客，找到一个合适的借口。
 前面查阅浏览资料时，不经意之间打开了[Cxsz](https://www.singlelovely.cn/)的友链[C1oudust](https://c1oudust.cn/)的友链[YML](https://menglei.xyz/)，突然感觉，哎哟不错哦。
@@ -24,6 +25,7 @@ cover: https://img.thaddeus.ink/self_images/anime_imgs/r233.png
 这也太麻烦了，于是按照上一篇的步骤[备份hexo防止换电脑掉数据之类](https://blog.csdn.net/wxl1555/article/details/79293159)进行，却发现下载下来的主题文件夹是个空的。
 不能接受，找了半天找不到错误，又去搜了老久的关于新环境写hexo博客的文章，最后找到了，[使用hexo，如果换了电脑怎么更新博客](https://www.zhihu.com/question/21193762)用户`直上云霄`的回答。
 其它的都是没有什么问题的，但是有一点：
+
 > 注意，如果你之前克隆过`theme`中的主题文件，那么应该把主题文件中的`.git`文件夹删掉，因为`git`不能嵌套上传，最好是显示隐藏文件，检查一下有没有，否则上传的时候会出错，导致你的主题文件无法上传，这样你的配置在别的电脑上就用不了了。 
 
 王德发…… 之前下载和上传忘了这茬
@@ -47,6 +49,7 @@ cover: https://img.thaddeus.ink/self_images/anime_imgs/r233.png
 从`upstream`源仓库拉取更新后`merge`进行对比合并，最后`push`推给自己的仓库。
 结果就是主题更新可以正常同步，按需合并到自己的单独分支，实现自定义。
 详情对比[fork他人的项目后，再同步更新别人的提交](https://blog.csdn.net/qq1332479771/article/details/56087333?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1.control)
+
 ```bash
 git remote -v
 git remote add upstream git@github.com:username/rep.git

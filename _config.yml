@@ -219,4 +219,4 @@ douban:
   game:
     title: 'Games'
     quote: '我于杀戮之中盛放，亦如黎明中的花朵'
-  timeout: 10000 
+  timeout: 1000
