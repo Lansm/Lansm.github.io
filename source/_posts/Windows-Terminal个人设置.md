@@ -12,6 +12,7 @@ date: 2020-12-23 16:02:57
 
 win10 1903+
 安装/自行编译 [Windows Terminal](https://docs.microsoft.com/zh-cn/windows/terminal/)
+仅做记录查看
 
 u1s1，微软官方的文档是真的全
 
@@ -88,8 +89,20 @@ Set-Theme Agnoster
    ```json
    "colorScheme": "Tango Dark",
    ```
+#### 结果图
+{% tabs terminalImgs %}
+<!-- tab IMG1-->
+![TerminalImg1](https://img.thaddeus.ink/self_images/others/20201228-212531.jpg)
+<!-- endtab -->
 
-   
+<!-- tab IMG2-->
+![TerminalImg2](https://img.thaddeus.ink/self_images/others/20201228-212603.jpg)
+<!-- endtab -->
+
+<!-- tab CODE-->
+![CODEimg](https://img.thaddeus.ink/self_images/others/20201228-212658.jpg)
+<!-- endtab -->
+{% endtabs %}
 
 
 
