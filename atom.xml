@@ -6,7 +6,7 @@
   <link href="http://thaddeus.ink/atom.xml" rel="self"/>
   
   <link href="http://thaddeus.ink/"/>
-  <updated>2020-12-06T07:37:46.000Z</updated>
+  <updated>2020-12-23T08:02:57.000Z</updated>
   <id>http://thaddeus.ink/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Windows Terminal个人设置</title>
+    <link href="http://thaddeus.ink/post/82a5ec21"/>
+    <id>http://thaddeus.ink/post/82a5ec21</id>
+    <published>2020-12-23T08:02:57.000Z</published>
+    <updated>2020-12-23T08:02:57.000Z</updated>
+    
+    
+    <summary type="html">基本对着微软官方文档就行</summary>
+    
+    
+    
+    <category term="Windows" scheme="http://thaddeus.ink/categories/Windows/"/>
+    
+    
+    <category term="Windows Terminal" scheme="http://thaddeus.ink/tags/Windows-Terminal/"/>
+    
+  </entry>
   
   <entry>
     <title>Python数据分析和数据科学面试题（待完成）</title>
@@ -35,9 +54,9 @@
     
     <category term="数据科学" scheme="http://thaddeus.ink/tags/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/"/>
     
-    <category term="答题" scheme="http://thaddeus.ink/tags/%E7%AD%94%E9%A2%98/"/>
+    <category term="Read" scheme="http://thaddeus.ink/tags/Read/"/>
     
-    <category term="阅读" scheme="http://thaddeus.ink/tags/%E9%98%85%E8%AF%BB/"/>
+    <category term="Q&amp;A" scheme="http://thaddeus.ink/tags/Q-A/"/>
     
   </entry>
   
@@ -58,9 +77,9 @@
     
     <category term="Hexo" scheme="http://thaddeus.ink/tags/Hexo/"/>
     
-    <category term="Git" scheme="http://thaddeus.ink/tags/Git/"/>
-    
     <category term="Blog" scheme="http://thaddeus.ink/tags/Blog/"/>
+    
+    <category term="Git" scheme="http://thaddeus.ink/tags/Git/"/>
     
     <category term="Butterfly" scheme="http://thaddeus.ink/tags/Butterfly/"/>
     
@@ -87,11 +106,11 @@
     
     <category term="Hexo" scheme="http://thaddeus.ink/tags/Hexo/"/>
     
+    <category term="Blog" scheme="http://thaddeus.ink/tags/Blog/"/>
+    
     <category term="Annie" scheme="http://thaddeus.ink/tags/Annie/"/>
     
     <category term="Git" scheme="http://thaddeus.ink/tags/Git/"/>
-    
-    <category term="Blog" scheme="http://thaddeus.ink/tags/Blog/"/>
     
   </entry>
   

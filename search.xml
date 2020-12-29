@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Windows Terminal个人设置</title>
+      <link href="post/82a5ec21.html"/>
+      <url>post/82a5ec21.html</url>
+      
+        <content type="html"><![CDATA[<p>win10 1903+<br>安装/自行编译 <a href="https://docs.microsoft.com/zh-cn/windows/terminal/">Windows Terminal</a><br>仅做记录查看</p><p>u1s1，微软官方的文档是真的全</p><hr><h3 id="配置文件设置"><a href="#配置文件设置" class="headerlink" title="配置文件设置"></a><a href="https://docs.microsoft.com/zh-cn/windows/terminal/customize-settings/profile-settings">配置文件设置</a></h3><h4 id="Cascadia-Code-PL"><a href="#Cascadia-Code-PL" class="headerlink" title="Cascadia Code PL"></a><a href="https://docs.microsoft.com/zh-cn/windows/terminal/cascadia-code">Cascadia Code PL</a></h4><p>所有版本的 <code>Cascadia Code</code> 都可以从 <a href="https://github.com/microsoft/cascadia-code/releases">Cascadia Code GitHub 发布页</a>下载</p><p>使用 <code>PowerShell</code>，安装 <code>Posh-Git</code> 和 <code>Oh-My-Posh</code>：</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Install-Module</span> posh<span class="literal">-git</span> <span class="literal">-Scope</span> CurrentUser</span><br><span class="line"><span class="built_in">Install-Module</span> <span class="built_in">oh</span><span class="literal">-my</span><span class="literal">-posh</span> <span class="literal">-Scope</span> CurrentUser</span><br></pre></td></tr></table></figure><p><a href="https://github.com/dahlbyk/posh-git">Posh-Git</a> 将 Git 状态信息添加到提示，并为 Git 命令、参数、远程和分支名称添加 tab 自动补全。 <a href="https://github.com/JanDeDobbeleer/oh-my-posh">Oh-My-Posh</a> 为 PowerShell 提示符提供主题功能。</p><p>若要在当前 PowerShell 主机应用程序中创建当前用户的配置文件，请使用以下命令：</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (!(<span class="built_in">Test-Path</span> <span class="literal">-Path</span> <span class="variable">$PROFILE</span>)) &#123;</span><br><span class="line">  <span class="built_in">New-Item</span> <span class="literal">-ItemType</span> File <span class="literal">-Path</span> <span class="variable">$PROFILE</span> <span class="literal">-Force</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><code>notepad $PROFILE</code>任意编辑器对配置文件进行编辑</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Import-Module</span> posh<span class="literal">-git</span></span><br><span class="line"><span class="built_in">Import-Module</span> <span class="built_in">oh</span><span class="literal">-my</span><span class="literal">-posh</span></span><br><span class="line"><span class="comment"># Start the default settings</span></span><br><span class="line"><span class="built_in">Set-Prompt</span></span><br><span class="line"><span class="comment"># Alternatively set the desired theme:</span></span><br><span class="line"><span class="built_in">Set-Theme</span> Agnoster</span><br></pre></td></tr></table></figure><p>如果<code>PowerShell</code>提示执行脚本不安全的问题，更新执行策略</p><blockquote><p>Set-ExecutionPolicy <policy-name><br>Set-ExecutionPolicy RemoteSigned -Scope CurrentUser<br>policy-name可能的值<br>Unrestricted、RemoteSigned、AllSigned、Restricted、Default、Bypass、Undefined</p></blockquote><p>安装含<a href="https://docs.microsoft.com/zh-cn/windows/terminal/tutorials/powerline-setup">Powerline</a>版本PL字体后，在<code>Setting.json</code>中添加进<code>powershell</code>中</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&quot;fontFace&quot;: &quot;Cascadia Code PL&quot;,</span><br></pre></td></tr></table></figure><h4 id="背景和配色"><a href="#背景和配色" class="headerlink" title="背景和配色"></a>背景和配色</h4><ol><li><p><code>acrylic</code> 背景和透明度设置，默认关闭</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&quot;useAcrylic&quot;: false,</span><br><span class="line">&quot;acrylicOpacity&quot;: 0.15,</span><br></pre></td></tr></table></figure></li><li><p>设置背景图像及透明度</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&quot;backgroundImage&quot;:&quot;...&quot;,</span><br><span class="line">&quot;backgroundImageOpacity&quot;:0.4,</span><br></pre></td></tr></table></figure></li><li><p>根据自己的背景搭配自带的<a href="https://docs.microsoft.com/zh-cn/windows/terminal/customize-settings/color-schemes">配色方案</a>多试试搭配，毕竟懒得自定义配色</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&quot;colorScheme&quot;: &quot;Tango Dark&quot;,</span><br></pre></td></tr></table></figure><h4 id="结果图"><a href="#结果图" class="headerlink" title="结果图"></a>结果图</h4><div class="tabs" id="terminalimgs"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#terminalimgs-1">IMG1</button></li><li class="tab"><button type="button" data-href="#terminalimgs-2">IMG2</button></li><li class="tab"><button type="button" data-href="#terminalimgs-3">CODE</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="terminalimgs-1"><p><img src= "https://img.thaddeus.ink/self_images/loading.gif" data-lazy-src="https://img.thaddeus.ink/self_images/others/20201228-212531.jpg" alt="TerminalImg1"></p><button type="button" class="tab-to-top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="terminalimgs-2"><p><img src= "https://img.thaddeus.ink/self_images/loading.gif" data-lazy-src="https://img.thaddeus.ink/self_images/others/20201228-212603.jpg" alt="TerminalImg2"></p><button type="button" class="tab-to-top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="terminalimgs-3"><p><img src= "https://img.thaddeus.ink/self_images/loading.gif" data-lazy-src="https://img.thaddeus.ink/self_images/others/20201228-212658.jpg" alt="CODEimg"></p><button type="button" class="tab-to-top"><i class="fas fa-arrow-up"></i></button></div></div></div></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Windows </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Windows Terminal </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Python数据分析和数据科学面试题（待完成）</title>
       <link href="post/561ea8e9.html"/>
       <url>post/561ea8e9.html</url>
@@ -24,9 +49,9 @@
             
             <tag> 数据科学 </tag>
             
-            <tag> 答题 </tag>
+            <tag> Read </tag>
             
-            <tag> 阅读 </tag>
+            <tag> Q&amp;A </tag>
             
         </tags>
       
@@ -53,9 +78,9 @@
             
             <tag> Hexo </tag>
             
-            <tag> Git </tag>
-            
             <tag> Blog </tag>
+            
+            <tag> Git </tag>
             
             <tag> Butterfly </tag>
             
@@ -88,11 +113,11 @@
             
             <tag> Hexo </tag>
             
+            <tag> Blog </tag>
+            
             <tag> Annie </tag>
             
             <tag> Git </tag>
-            
-            <tag> Blog </tag>
             
         </tags>
       
@@ -142,9 +167,9 @@
     
     
     <entry>
-      <title>Daily</title>
-      <link href="artitalk/index.html"/>
-      <url>artitalk/index.html</url>
+      <title>关于</title>
+      <link href="about/index.html"/>
+      <url>about/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -153,9 +178,9 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="about/index.html"/>
-      <url>about/index.html</url>
+      <title>Daily</title>
+      <link href="artitalk/index.html"/>
+      <url>artitalk/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -201,18 +226,7 @@
       <link href="playlist/index.html"/>
       <url>playlist/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-KrYRQQdd" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7787176167" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"    ></div><p>歌单详情：<a href="https://i.y.qq.com/n2/m/share/details/taoge.html?platform=11&appshare=android_qq&appversion=10060008&hosteuin=oKn5NKClNecl7n**&id=7787176167&ADTAG=qfshare">岚的歌单：七月の谎言</a><br>可复制链接导入其它音乐app</p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>标签</title>
-      <link href="tags/index.html"/>
-      <url>tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-lvvaJpQs" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7787176167" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"    ></div><p>歌单详情：<a href="https://i.y.qq.com/n2/m/share/details/taoge.html?platform=11&appshare=android_qq&appversion=10060008&hosteuin=oKn5NKClNecl7n**&id=7787176167&ADTAG=qfshare">岚的歌单：七月の谎言</a><br>可复制链接导入其它音乐app</p>]]></content>
       
     </entry>
     
@@ -222,6 +236,17 @@
       <title>Todo</title>
       <link href="schedule/index.html"/>
       <url>schedule/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="tags/index.html"/>
+      <url>tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
