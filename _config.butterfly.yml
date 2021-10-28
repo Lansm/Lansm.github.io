@@ -19,8 +19,8 @@ menu:
     - 阅读 || /books/ || fas fa-book
     - 游戏 || /games/ || fab fa-steam-symbol
     - 电影 || /movies/ || fas fa-camera
-    - 说说 || /dailytalk/ || fas fa-star-half-alt
-  关于: /about/ || fas fa-heart
+  说说 : /dailytalk/ || fas fa-star-half-alt
+  # 关于: /about/ || fas fa-heart
   # Home: / || fas fa-home
   # Archives: /archives/ || fas fa-archive
   # Tags: /tags/ || fas fa-tags

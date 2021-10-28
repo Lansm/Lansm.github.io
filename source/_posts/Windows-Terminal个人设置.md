@@ -33,7 +33,9 @@ Install-Module posh-git -Scope CurrentUser
 Install-Module oh-my-posh -Scope CurrentUser
 ```
 
-[Posh-Git](https://github.com/dahlbyk/posh-git) 将 Git 状态信息添加到提示，并为 Git 命令、参数、远程和分支名称添加 tab 自动补全。 [Oh-My-Posh](https://github.com/JanDeDobbeleer/oh-my-posh) 为 PowerShell 提示符提供主题功能。
+[Posh-Git](https://github.com/dahlbyk/posh-git) 将 Git 状态信息添加到提示，并为 Git 命令、参数、远程和分支名称添加 tab 自动补全。
+
+[Oh-My-Posh](https://github.com/JanDeDobbeleer/oh-my-posh) 为 PowerShell 提示符提供主题功能。
 
 
 若要在当前 PowerShell 主机应用程序中创建当前用户的配置文件，请使用以下命令：

@@ -24,6 +24,22 @@ cover: https://img.thaddeus.ink/self_images/anime_imgs/r233.png
 问题来了，hexo搭建博客从走一遍？
 这也太麻烦了，于是按照上一篇的步骤[备份hexo防止换电脑掉数据之类](https://blog.csdn.net/wxl1555/article/details/79293159)进行，却发现下载下来的主题文件夹是个空的。
 不能接受，找了半天找不到错误，又去搜了老久的关于新环境写hexo博客的文章，最后找到了，[使用hexo，如果换了电脑怎么更新博客](https://www.zhihu.com/question/21193762)用户`直上云霄`的回答。
+> 1. 搭建流程：  
+创建仓库->分支master和hexo->设置hexo默认->git clone ……github.io.git  
+->本地github.io文件夹下Git Bash执行 `npm install hexo`,`npm install`,`hexo init`,  
+`npm install hexo-deployer-git` 此时分支显示为hexo  
+->修改`_config.yml` 中deploy参数，分支应为master  
+->`git add .` , `git commit -m "..."` , `git push origin hexo`   
+->`hexo g -d` 生成并部署到github
+> 2. 日常改动流程  
+依次执行 `git add .` , `git commit -m "xxx"` , `git push origin hexo` 推送至github(hexo)  
+然后执行 `hexo g -d` 发布网站到master分支  
+虽然两个过程顺序调转一般不会出问题？
+> 3. 丢失本地资料后流程  
+使用 git clone git... 默认分支hexo  
+本地新拷贝的github.io文件夹下 Git Bash执行 `npm install hexo`,`npm install`  
+`npm install hexo-deployer-git` 此时分支显示为hexo  
+
 其它的都是没有什么问题的，但是有一点：
 
 > 注意，如果你之前克隆过`theme`中的主题文件，那么应该把主题文件中的`.git`文件夹删掉，因为`git`不能嵌套上传，最好是显示隐藏文件，检查一下有没有，否则上传的时候会出错，导致你的主题文件无法上传，这样你的配置在别的电脑上就用不了了。 
