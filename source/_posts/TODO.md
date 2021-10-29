@@ -1,6 +1,13 @@
-
-
-
+---
+title: TODO
+date: 2021-10-29 12:15:50
+categories:
+    - TODO
+tags:
+    - Daily
+description: Daily TODO List
+cover:
+---
 
 
 
@@ -21,5 +28,3 @@
 - [ ] 手写汇报
 - [ ] 综述-绪论
 - [ ] pytorch-CNN 
-
-
