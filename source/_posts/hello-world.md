@@ -2,7 +2,7 @@
 title: Hello World
 date: 2020-5-19
 categories:
-  - 博客设置
+  - 博客
 tags:
   - Hexo
   - Hello World!

@@ -1,7 +1,7 @@
 ---
 title: 新生：Butterfly主题更替
 categories:
-  - 博客设置
+  - 博客
 tags:
   - Butterfly
   - Hexo

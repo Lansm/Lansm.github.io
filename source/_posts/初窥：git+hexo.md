@@ -2,7 +2,7 @@
 title: 初窥：git+hexo
 date: 2020-5-20
 categories:
-  - 博客设置
+  - 博客
 tags:
   - Hexo
   - Annie

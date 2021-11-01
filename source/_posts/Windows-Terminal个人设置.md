@@ -1,7 +1,7 @@
 ---
 title: Windows Terminal个人设置
 categories:
-  - Windows
+  - 随写
 tags:
   - Windows Terminal
 description: 基本对着微软官方文档就行

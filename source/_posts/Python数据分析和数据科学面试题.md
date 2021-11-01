@@ -1,7 +1,7 @@
 ---
 title: Python数据分析和数据科学面试题（待完成）
 categories:
-  - Python
+  - 学习
 tags:
   - Python
   - 数据科学
