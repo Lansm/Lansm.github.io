@@ -1,11 +1,12 @@
 ---
 title: TODO
-date: 2021-10-29 12:15:50
 categories:
-    - TODO
+  - TODO
 tags:
-    - Daily
+  - Daily
 description: Daily TODO List
+abbrlink: 6c9b5b14
+date: 2021-10-29 12:15:50
 cover:
 ---
 
@@ -13,18 +14,29 @@ cover:
 
 ### Daily
 
-- [ ] 运动
-- [ ] 英语
-- [ ] 学习强国
-- [ ] 公考
-- [ ] 练字
-- [ ] 阅读
-- [ ] osu
+- [ ] 运动 * 30 min
+- [ ] 英语 * DUO & read & listen * 1
+- [ ] 学习强国 * 1 round
+- [ ] 公考 * 1 round
+- [ ] 练字 * 1 sheet
+- [ ] 阅读 * 1 chapt
+- [ ] osu * 15 songs
+- [ ] Code * 2 ques
 
+### 2021.11
 
-### 2021.10
-#### 10.29
+#### 1
 
-- [ ] 手写汇报
-- [ ] 综述-绪论
-- [ ] pytorch-CNN 
+- [x] 手写汇报
+- [x] 综述-绪论
+- [ ] [tensor+autograd](https://handbook.pytorch.wiki/chapter1/2_autograd_tutorial.html)+[神经网络基础](https://mofanpy.com/tutorials/machine-learning/torch/)
+- [x] 全拆解
+
+#### 2
+
+- [ ] [机器学习项目实战·一](http://mp.weixin.qq.com/s?__biz=MzAxMjMwODMyMQ==&mid=2456336841&idx=1&sn=bda62e7244974ac355650052324e050c&scene=19#wechat_redirect)
+- [ ] 科目三练车
+
+#### 15
+
+- [ ] 又拍云联盟 代金券 申请
