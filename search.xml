@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title></title>
+      <link href="post/0.html"/>
+      <url>post/0.html</url>
+      
+        <content type="html"><![CDATA[<p>[toc]</p><h1 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h1><h5 id="毕业论文·害虫识别"><a href="#毕业论文·害虫识别" class="headerlink" title="毕业论文·害虫识别"></a>毕业论文·害虫识别</h5><p>[3]李瑞. 小目标害虫图像自动识别与计数研究[D].中国科学技术大学,2021.</p><details><summary> 博士论文·2021·中科大</summary><pre>> 问题与挑战：环境复杂，害虫形态各异、尺度不一，识别计数困难> 创新点：小目标害图像自动识别与计数>     1. 样本规模小>         将传统图像预处理、颜色迁移、图像融合 结合，进行数据增强时加入作物数据集，生成新样本时考虑害虫生活习性，生成更多高质量、跨场景的样本数据 >         提升模型精度与鲁棒性>     2. 复杂环境·群聚性>         提出 Coarse-to-Fine网络架构，通过 粗网络 检测小目标害虫聚集区域，通过 细网络 来检测区域中目标害虫，最后融合细网络与全局检测网络结果。>         提出一种新的非极大值抑制算法NMS，解决中间过程粗网络检测框重叠问题>     3. 高密度、高遮挡>         提出Detect-Density网络结构，将通用目标检测与密度估计方法进行融合>         包括：害虫密度分类网络，害虫检测网络，害虫密度估计网络>     4. 应用算法到田间调查中。推广应用> 理论：>     卷积神经网络：层+激活+损失+优化器>     目标检测技术：骨干网络AlexNet-DenseNet+IoU NMS Anchor FPN+YOLO SSD RetinaNet FCOS FasterRCNN LibraRCNN CascadeRCNN +AP mAP>     基于密度图的目标检测技术> 实际工作：>     数据增强：颜色迁移+预处理+图像融合>     提出CFN Coarse-to-Fine网络：粗检测+全局监测+细检测>     提出Detect-Density网络 融合通用目标检测与密度估计> 研究应用：</pre></details><p>[1]王剑. 基于神经网络的水稻三化螟识别系统的设计与实现[D].中国农业科学院,2006.</p><p>[1]刘德营. 稻飞虱自动识别关键技术的研究[D].南京农业大学,2011.</p><p>机器学习解码化学特征以识别新的蛾类气味受体激动剂<br>[1]Gabriela Caballero-Vidal,Cédric Bouysset,Hubert Grunig,Sébastien Fiorucci,Nicolas Montagné,Jérôme Golebiowski,Emmanuelle Jacquin-Joly. Machine learning decodes chemical features to identify novel agonists of a moth odorant receptor[J]. Scientific Reports,2020,10(3):</p><h5 id="综述-2"><a href="#综述-2" class="headerlink" title="综述 -2"></a>综述 -2</h5><p>[1]张琦,张荣梅,陈彬.基于深度学习的图像识别技术研究综述[J].河北省科学院学报,2019,36(03):28-36.</p><p>[1]郑远攀,李广阳,李晔.深度学习在图像识别中的应用研究综述[J].计算机工程与应用,2019,55(12):20-36.</p><h5 id="害虫危害-3-5"><a href="#害虫危害-3-5" class="headerlink" title="害虫危害- 3+5"></a>害虫危害- 3+5</h5><p>小麦茎叶蜂是北美北部平原小麦主要害虫，量化中国北方采集点六年来本地宿主寄生情况，确定中国北方寄生蜂作为潜在生物防治剂。<br>[1]Tatyana A. Rand,Debra K. Waters,Thomas G. Shanower. Preliminary evaluation of the parasitoid wasp, Collyria catoptron , as a potential biological control agent against the wheat stem sawfly, Cephus cinctus , in North America[J]. Biocontrol Science and Technology,2016,26(1).</p><p>来自墨西哥的昆虫病原线虫能够克服西部玉米根虫的抗性机制<br>[1]Pamela Bruno,Ricardo A. R. Machado,Gaétan Glauser,Angela Köhler,Raquel Campos-Herrera,Julio Bernal,Stefan Toepfer,Matthias Erb,Christelle A. M. Robert,Carla C. M. Arce,Ted C. J. Turlings. Entomopathogenic nematodes from Mexico that can overcome the resistance mechanisms of the western corn rootworm[J]. Scientific Reports,2020,10(1):</p><p>在加纳检测草地贪夜蛾的分子方法，以及监测入侵物种在发展中国家的传播的意义<br>[1]Matthew J. W. Cock,Patrick K. Beseh,Alan G. Buddie,Giovanni CafÃ¡,Jayne Crozier. Molecular methods to detect Spodoptera frugiperda in Ghana, and implications for monitoring the spread of invasive species in developing countries[J]. Scientific Reports,2017,7(1):</p><p>[1]祝清光. 小麦病虫害绿色防控技术[A]. 陈万全.植物健康与病虫害防控[C].:中国植物保护学会,2020:3.<br>[1]王永芳,马继芳,齐永志,勾建军,王孟泉,陈立涛,靳群英,焦素环,张立娇,张颖,甄文超,董志平. 保护性耕作条件下小麦-玉米重要病虫害及一体化绿色防控技术研究与示范[A]. 陈万全.植物健康与病虫害防控[C].:中国植物保护学会,2020:1.<br>[1]王永芳, 保护性耕作条件下小麦-玉米主要病虫害发生规律及绿色防控技术研究. 河北省,河北省农林科学院谷子研究所,2020-08-18.<br>[1]孙瑞琳,孙成明. 小麦病虫害遥感监测研究进展[A]. 中国作物学会.2019年中国作物学会学术年会论文摘要集[C].中国作物学会:中国作物学会,2019:1.<br>[1]萧玉涛,吴超,吴孔明.中国农业害虫防治科技70年的成就与展望[J].应用昆虫学报,2019,56(06):1115-1124.</p><h5 id="其它识别技术（非AI）-3-2"><a href="#其它识别技术（非AI）-3-2" class="headerlink" title="其它识别技术（非AI）- 3+2"></a>其它识别技术（非AI）- 3+2</h5><p>采用DNA条形码、种特异性PCR和实时PCR技术对贮藏产品的6种三叶虫害虫进行鉴定<br>[1]Tao Zhang,Yi-Jiao Wang,Wei Guo,Dan Luo,Yi Wu,Zuzana Kučerová,Václav Stejskal,George Opit,Yang Cao,Fu-Jun Li,Zhi-Hong Li. DNA barcoding, species-specific PCR and real-time PCR techniques for the identification of six Tribolium pests of stored products[J]. Scientific Reports,2016,6(1):</p><p>建立一个全球 DNA 条形码参考库，用于鳞翅目茎螟的检疫鉴定，重点是甘蔗害虫<br>[1]Timothy R. C. Lee,Stacey J. Anderson,Lucy T. T. Tran-Nguyen,Nader Sallam,Bruno P. Le Ru,Desmond Conlong,Kevin Powell,Andrew Ward,Andrew Mitchell. Towards a global DNA barcode reference library for quarantine identifications of lepidopteran stemborers, with an emphasis on sugarcane pests[J]. Scientific Reports,2019,9(3):</p><h5 id="其它-人工智能-4"><a href="#其它-人工智能-4" class="headerlink" title="其它 人工智能- 4"></a>其它 人工智能- 4</h5><p>运营管理中的AI：应用、挑战和机遇<br>[1]Ali K. Dogru,Burcu B. Keskin. AI in operations management: applications, challenges and opportunities[J]. Journal of Data, Information and Management,2020,2(1):</p><p>出版者修正：脑部实验隐含着比常用AI学习算法更好的适应机制<br>[1]Shira Sardi,Roni Vardi,Yuval Meir,Yael Tugendhaft,Shiri Hodassman,Amir Goldental,Ido Kanter. Publisher Correction: Brain experiments imply adaptation mechanisms which outperform common AI learning algorithms[J]. Scientific Reports,2020,10(1):</p><p>火山新科学利用AI、卫星和气体传感器来预测喷发<br>[1]Jane Palmer. The new science of volcanoes harnesses AI, satellites and gas sensors to forecast eruptions[J]. Nature: International weekly journal of science,2020,581(7808):</p><p>利用数字创新改造业务：AI、区块链、云和数据分析的应用<br>[1]Shahriar Akter,Katina Michael,Muhammad Rajib Uddin,Grace McCarthy,Mahfuzur Rahman. Transforming business using digital innovations: the application of AI, blockchain, cloud and data analytics[J]. Annals of Operations Research,2020(prepublish):</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Windows Terminal个人设置</title>
+      <link href="post/82a5ec21.html"/>
+      <url>post/82a5ec21.html</url>
+      
+        <content type="html"><![CDATA[<p>win10 1903+<br>安装/自行编译 <a href="https://docs.microsoft.com/zh-cn/windows/terminal/">Windows Terminal</a><br>仅做记录查看</p><p>u1s1，微软官方的文档是真的全</p><hr><h3 id="配置文件设置"><a href="#配置文件设置" class="headerlink" title="配置文件设置"></a><a href="https://docs.microsoft.com/zh-cn/windows/terminal/customize-settings/profile-settings">配置文件设置</a></h3><h4 id="Cascadia-Code-PL"><a href="#Cascadia-Code-PL" class="headerlink" title="Cascadia Code PL"></a><a href="https://docs.microsoft.com/zh-cn/windows/terminal/cascadia-code">Cascadia Code PL</a></h4><p>所有版本的 <code>Cascadia Code</code> 都可以从 <a href="https://github.com/microsoft/cascadia-code/releases">Cascadia Code GitHub 发布页</a>下载</p><p>使用 <code>PowerShell</code>，安装 <code>Posh-Git</code> 和 <code>Oh-My-Posh</code>：</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Install-Module</span> posh<span class="literal">-git</span> <span class="literal">-Scope</span> CurrentUser</span><br><span class="line"><span class="built_in">Install-Module</span> <span class="built_in">oh</span><span class="literal">-my</span><span class="literal">-posh</span> <span class="literal">-Scope</span> CurrentUser</span><br></pre></td></tr></table></figure><p><a href="https://github.com/dahlbyk/posh-git">Posh-Git</a> 将 Git 状态信息添加到提示，并为 Git 命令、参数、远程和分支名称添加 tab 自动补全。</p><p><a href="https://github.com/JanDeDobbeleer/oh-my-posh">Oh-My-Posh</a> 为 PowerShell 提示符提供主题功能。</p><p>若要在当前 PowerShell 主机应用程序中创建当前用户的配置文件，请使用以下命令：</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (!(<span class="built_in">Test-Path</span> <span class="literal">-Path</span> <span class="variable">$PROFILE</span>)) &#123;</span><br><span class="line">  <span class="built_in">New-Item</span> <span class="literal">-ItemType</span> File <span class="literal">-Path</span> <span class="variable">$PROFILE</span> <span class="literal">-Force</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><code>notepad $PROFILE</code>任意编辑器对配置文件进行编辑</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Import-Module</span> posh<span class="literal">-git</span></span><br><span class="line"><span class="built_in">Import-Module</span> <span class="built_in">oh</span><span class="literal">-my</span><span class="literal">-posh</span></span><br><span class="line"><span class="comment"># Start the default settings</span></span><br><span class="line"><span class="built_in">Set-Prompt</span></span><br><span class="line"><span class="comment"># Alternatively set the desired theme:</span></span><br><span class="line"><span class="built_in">Set-Theme</span> Agnoster</span><br></pre></td></tr></table></figure><p>如果<code>PowerShell</code>提示执行脚本不安全的问题，更新执行策略</p><blockquote><p>Set-ExecutionPolicy <policy-name><br>Set-ExecutionPolicy RemoteSigned -Scope CurrentUser<br>policy-name可能的值<br>Unrestricted、RemoteSigned、AllSigned、Restricted、Default、Bypass、Undefined</p></blockquote><p>安装含<a href="https://docs.microsoft.com/zh-cn/windows/terminal/tutorials/powerline-setup">Powerline</a>版本PL字体后，在<code>Setting.json</code>中添加进<code>powershell</code>中</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&quot;fontFace&quot;: &quot;Cascadia Code PL&quot;,</span><br></pre></td></tr></table></figure><h4 id="背景和配色"><a href="#背景和配色" class="headerlink" title="背景和配色"></a>背景和配色</h4><ol><li><p><code>acrylic</code> 背景和透明度设置，默认关闭</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&quot;useAcrylic&quot;: false,</span><br><span class="line">&quot;acrylicOpacity&quot;: 0.15,</span><br></pre></td></tr></table></figure></li><li><p>设置背景图像及透明度</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&quot;backgroundImage&quot;:&quot;...&quot;,</span><br><span class="line">&quot;backgroundImageOpacity&quot;:0.4,</span><br></pre></td></tr></table></figure></li><li><p>根据自己的背景搭配自带的<a href="https://docs.microsoft.com/zh-cn/windows/terminal/customize-settings/color-schemes">配色方案</a>多试试搭配，毕竟懒得自定义配色</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&quot;colorScheme&quot;: &quot;Tango Dark&quot;,</span><br></pre></td></tr></table></figure><h4 id="结果图"><a href="#结果图" class="headerlink" title="结果图"></a>结果图</h4><div class="tabs" id="terminalimgs"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#terminalimgs-1">IMG1</button></li><li class="tab"><button type="button" data-href="#terminalimgs-2">IMG2</button></li><li class="tab"><button type="button" data-href="#terminalimgs-3">CODE</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="terminalimgs-1"><p><img src="https://img.thaddeus.ink/self_images/others/20201228-212531.jpg" alt="TerminalImg1"></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="terminalimgs-2"><p><img src="https://img.thaddeus.ink/self_images/others/20201228-212603.jpg" alt="TerminalImg2"></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="terminalimgs-3"><p><img src="https://img.thaddeus.ink/self_images/others/20201228-212658.jpg" alt="CODEimg"></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Windows Terminal </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Python数据分析和数据科学面试题（待完成）</title>
+      <link href="post/561ea8e9.html"/>
+      <url>post/561ea8e9.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+            <tag> 数据科学 </tag>
+            
+            <tag> Read </tag>
+            
+            <tag> Q&amp;A </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>新生：Butterfly主题更替</title>
+      <link href="post/bd4fbb72.html"/>
+      <url>post/bd4fbb72.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="重新启动"><a href="#重新启动" class="headerlink" title="重新启动"></a>重新启动</h3><p>疫情后大家都有着自己的经历，新的生活节奏或者人生路上的一些小插曲，对于我们的未来走向都有着一定的影响。<br>说这些，只是为自己这么久没有打开博客，找到一个合适的借口。<br>前面查阅浏览资料时，不经意之间打开了<a href="https://www.singlelovely.cn/">Cxsz</a>的友链<a href="https://c1oudust.cn/">C1oudust</a>的友链<a href="https://menglei.xyz/">YML</a>，突然感觉，哎哟不错哦。<br>这个博客主题第一时间就吸引到了我，然后就到了这里。<br>但是当我准备按照以前的步骤进行，以为只是简单地换个主题改个配置。但是不巧的是换了台笔记本。<br>问题来了，hexo搭建博客从走一遍？<br>这也太麻烦了，于是按照上一篇的步骤<a href="https://blog.csdn.net/wxl1555/article/details/79293159">备份hexo防止换电脑掉数据之类</a>进行，却发现下载下来的主题文件夹是个空的。<br>不能接受，找了半天找不到错误，又去搜了老久的关于新环境写hexo博客的文章，最后找到了，<a href="https://www.zhihu.com/question/21193762">使用hexo，如果换了电脑怎么更新博客</a>用户<code>直上云霄</code>的回答。</p><blockquote><ol><li>搭建流程:<br>创建仓库-&gt;分支master和hexo-&gt;设置hexo默认-&gt;git clone ……github.io.git-&gt;本地github.io文件夹下Git Bash执行 <code>npm install hexo</code>,<code>npm install</code>,<code>hexo init</code>,<code>npm install hexo-deployer-git</code> 此时分支显示为hexo -&gt;修改<code>_config.yml</code> 中deploy参数，分支应为 master-&gt;<code>git add .</code> , <code>git commit -m &quot;...&quot;</code> , <code>git push origin hexo</code>-&gt;<code>hexo g -d</code> 生成并部署到github</li><li>日常改动流程<br>依次执行 <code>git add .</code> , <code>git commit -m &quot;xxx&quot;</code> , <code>git push origin hexo</code> 推送至github(hexo)<br>然后执行 <code>hexo g -d</code> 发布网站到master分支<br>虽然两个过程顺序调转一般不会出问题？</li><li>丢失本地资料后流程<br>使用 git clone git… 默认分支hexo<br>本地新拷贝的github.io文件夹下 Git Bash执行 <code>npm install hexo</code>,<code>npm install</code><br><code>npm install hexo-deployer-git</code> 此时分支显示为hexo</li></ol></blockquote><p>其它的都是没有什么问题的，但是有一点：</p><blockquote><p>注意，如果你之前克隆过<code>theme</code>中的主题文件，那么应该把主题文件中的<code>.git</code>文件夹删掉，因为<code>git</code>不能嵌套上传，最好是显示隐藏文件，检查一下有没有，否则上传的时候会出错，导致你的主题文件无法上传，这样你的配置在别的电脑上就用不了了。 </p></blockquote><p>王德发…… 之前下载和上传忘了这茬<br>在以前没有将主题文件保存到<code>hexo</code>目录下，都是直接<code>git clone</code>下来直接改的，新版本<code>hexo</code>可以有<code>_config.butterfly.yml</code>这样，存于<code>hexo</code>根目录却覆盖原主题配置文件。<br>相关<code>Butterfly</code>主题配置，请看开发人员官方博客<a href="https://butterfly.js.org/">Butterfly</a>。<br>下面记录一下遇到的上面没说的或者我新遇到的。</p><h3 id="qq跳转链接"><a href="#qq跳转链接" class="headerlink" title="qq跳转链接"></a>qq跳转链接</h3><p>用在了侧边栏的社交连接中，一搜就有</p><blockquote><p>网页版本点击跳转到添加好友界面：（直接用下面的链接地址，将<code>qq号</code>改成自己的即可）<br><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1019678874&amp;site=qq&amp;menu=yes">http://wpa.qq.com/msgrd?v=3&amp;uin=1019678874&amp;site=qq&amp;menu=yes</a></p></blockquote><h3 id="git-clone-报错"><a href="#git-clone-报错" class="headerlink" title="git clone 报错"></a>git clone 报错</h3><blockquote><p>error: RPC failed;curl 18 transfer closed with outstanding read data remaining<br>直接<code>https</code>改成<code>ssh</code>方式<code>clone</code>就行了,提前将<code>git</code>的<code>ssh</code>配置好。</p></blockquote><h3 id="主题同步更新"><a href="#主题同步更新" class="headerlink" title="主题同步更新"></a>主题同步更新</h3><p>如果使用<code>git clone</code>直接使用主题，在自定义后不方便进行对比更新主题，因为只能够存在一个<code>.git</code>文件夹。<br>因此使用<code>git fork</code>再<code>git clone</code>自己库中主题，新建分支存储自己的修改主题文件。<br><code>remote</code>查看远程信息，添加远程仓库，使用自己<code>fork</code>的目标，<code>fetch</code>和<code>pull</code>的区别使用是个重点。<br>从<code>upstream</code>源仓库拉取更新后<code>merge</code>进行对比合并，最后<code>push</code>推给自己的仓库。<br>结果就是主题更新可以正常同步，按需合并到自己的单独分支，实现自定义。<br>详情对比<a href="https://blog.csdn.net/qq1332479771/article/details/56087333?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1.control">fork他人的项目后，再同步更新别人的提交</a></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git remote -v</span><br><span class="line">git remote add upstream git@github.com:username/rep.git</span><br><span class="line">git fetch upstream</span><br><span class="line">git merge upstream/master</span><br><span class="line">git push</span><br></pre></td></tr></table></figure><h3 id="音乐功能"><a href="#音乐功能" class="headerlink" title="音乐功能"></a>音乐功能</h3><p>主题内置了音乐aplayer功能，在主题配置文件中inject里进行底部插入，默认代码已经完成了歌单，只需要更改id和音乐app类型即可。其它选项可以对比查看<a href="https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md">aplayer官方文档</a><br>可通过音乐app的歌单分享链接进行查看对应id，建议链接中找不到id时换其他分享方式试一试。我自己就是PC分享和Android分享不一致才发现这个问题的。<br>导航栏的音乐页面是一个正常的自定义页面，官方提供下面代码添加了播放器页面。</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% meting <span class="string">&quot;7787176167&quot;</span> <span class="string">&quot;tencent&quot;</span> <span class="string">&quot;playlist&quot;</span> <span class="string">&quot;theme:#FF4081&quot;</span> <span class="string">&quot;mode:circulation&quot;</span> <span class="string">&quot;mutex:true&quot;</span> <span class="string">&quot;listmaxheight:340px&quot;</span> <span class="string">&quot;preload:auto&quot;</span> %&#125;</span><br></pre></td></tr></table></figure><h3 id="又拍云CDN与云存储"><a href="#又拍云CDN与云存储" class="headerlink" title="又拍云CDN与云存储"></a>又拍云CDN与云存储</h3><p>u1s1，又拍云人工客服挺给力，基本秒回我解决问题。关于DNS解析配置，HTTPS访问问题，SSL证书配置，CDN加速问题，都是问他解决的。还有送的代金券和又拍云联盟的免费流量，基本够用了。<br>就说一下干了什么吧。</p><ul><li>申请免费SSL证书实现HTTPS</li><li>通过二级域名进行云存储绑定</li><li>上传图片等文件</li><li>CDN加速</li></ul><h3 id="Butterfly其它美化"><a href="#Butterfly其它美化" class="headerlink" title="Butterfly其它美化"></a>Butterfly其它美化</h3><ul><li><a href="https://www.antmoe.com/posts/7198453/index.html">Butterfly主题优雅更换背景</a></li><li><a href="https://www.antmoe.com/posts/a811d614/index.html">butterfly主题优雅魔改系列（持续更新）</a></li><li><a href="https://menglei.xyz/2020/11/05/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%A4%87%E5%BF%98/">血小板Live2d</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Blog </tag>
+            
+            <tag> Git </tag>
+            
+            <tag> Butterfly </tag>
+            
+            <tag> CDN </tag>
+            
+            <tag> 又拍云 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>初窥：git+hexo</title>
+      <link href="post/992bb363.html"/>
+      <url>post/992bb363.html</url>
+      
+        <content type="html"><![CDATA[<p>折腾了一天，终于搞定了自己的个人博客网站。<br>其实也不是说建立多难，只是想要好看、好用啥的。</p><a id="more"></a><h3 id="github-建立个人博客仓库"><a href="#github-建立个人博客仓库" class="headerlink" title="github 建立个人博客仓库"></a>github 建立个人博客仓库</h3><blockquote><p>仓库名： <em>用户名.github.io</em><br>例： <a href="thaddeus.ink">lansm.github.io</a></p></blockquote><h4 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h4><blockquote><ul><li>安装成功后，将Git与GitHub帐号绑定设置user.name和user.email配置信息</li><li>生成ssh密钥文件，直接三个回车即可，默认不需要设置密码</li><li>找到生成的.ssh的文件夹中的id_rsa.pub密钥，将内容全部复制，打开GitHub_Settings_keys 页面，新建new SSH Key</li><li>在Git Bash中检测GitHub公钥设置是否成功</li></ul></blockquote><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git config -<span class="literal">-global</span> user.name <span class="string">&quot;你的GitHub用户名&quot;</span></span><br><span class="line">git config -<span class="literal">-global</span> user.email <span class="string">&quot;你的GitHub注册邮箱&quot;</span></span><br><span class="line">ssh<span class="literal">-keygen</span> <span class="literal">-t</span> rsa <span class="literal">-C</span> <span class="string">&quot;你的GitHub注册邮箱&quot;</span></span><br><span class="line">ssh git@github.com</span><br></pre></td></tr></table></figure><h4 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装<a href="https://nodejs.org/en/download/">Node.js</a></h4><blockquote><p>检测<code>Node.js</code>是否安装成功     <code>node -v</code><br>检测<code>npm</code>是否安装成功     <code>npm -v</code></p></blockquote><h4 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h4><p>建立文件夹存放<code>Hexo</code>框架与以后你自己发布的网页<br>通过命令行进入文件夹（或者文件夹中<code>shift+右键</code>）<br>安装<code>Hexo</code></p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install <span class="literal">-g</span> hexo<span class="literal">-cli</span> </span><br></pre></td></tr></table></figure><p>初始化博客</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog</span><br></pre></td></tr></table></figure><p>为了检测我们的网站雏形，分别按顺序输入以下三条命令：</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo new test_my_site</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>新建一篇博客文章+生成网页+在本地预览<br>默认本地服务地址 ： <a href="localhost:4000">localhost:4000</a></p><p>将我们的<code>Hexo</code>与<code>GitHub</code>关联起来，打开站点的配置文件<code>_config.yml</code>（自己建立的根目录下），翻到最后修改为：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">    <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">    <span class="attr">repo:</span>  <span class="comment">#这里填入你之前在GitHub上创建仓库的完整路径，记得加上 .git</span></span><br><span class="line">    <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure><p>上面是给<code>hexo d</code> 做相应配置，让<code>hexo</code>知道你要把blog部署在哪里</p><p>安装Git部署插件</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo<span class="literal">-deployer</span><span class="literal">-git</span> -<span class="literal">-save</span></span><br></pre></td></tr></table></figure><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean </span><br><span class="line">hexo g </span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><p><code>hexo d</code> 就是部署网站命令，d是deploy的缩写。<br>完成后，打开浏览器，在地址栏输入你的放置个人网站的仓库路径，即 用户名.github.io<br>例： <a href="thaddeus.ink">lansm.github.io</a></p><p>到这里其实已经完成博客的框架搭建，可以自行探索了<br>但是为了更简单+更美观： <code>选择HEXO主题安装</code></p><h3 id="安装配置主题"><a href="#安装配置主题" class="headerlink" title="安装配置主题"></a>安装配置主题</h3><p>以本站主题为例：</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/Sariay/hexo<span class="literal">-theme</span><span class="literal">-Annie</span>.git</span><br></pre></td></tr></table></figure><p>将站点目录下的<code>_config.yml</code>文件中的<code>theme</code>字段修改为<code>Annie</code>。<br>确保<code>themes</code>目录下存在名为<code>Annie</code>的文件夹（或<code>hexo-theme-Annie</code>）</p><h4 id="其它说明"><a href="#其它说明" class="headerlink" title="其它说明"></a>其它说明</h4><ul><li><a href="https://github.com/Sariay/hexo-theme-Annie">star主题库查看实现功能~Annie主题github</a></li><li><a href="https://sariay.github.io/2018/08/27/Annie%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/">主题原作者Blog~Annie主题使用说明详情</a></li><li><a href="https://zhuanlan.zhihu.com/p/26625249">[知乎]Github+Hexo 搭建个人博客(包括域名绑定)</a></li><li><del><a href="https://blog.csdn.net/wxl1555/article/details/79293159">备份hexo防止换电脑掉数据之类</a></del><strong>（有问题）</strong> 详情请看 <a href="https://thaddeus.ink/post/bd4fbb72">新生：Butterfly主题更替</a></li><li><a href="https://www.jianshu.com/p/6f1e53b70a48">SEO和站点加速</a></li><li><a href="http://www.mamicode.com/info-detail-2455645.html">Hexo提交百度谷歌收录站点</a></li><li><a href="https://help.github.com/en/articles/basic-writing-and-formatting-syntax#using-emoji">Markdown基础语法-Github</a> </li><li><a href="https://www.npmjs.com/package/hexo-article-emoji">Hexo官方Emoji插件使用说明</a></li><li>通过主题将md文档显示在网页上时，不需要显示在网页的<code>README.md</code>注意通过站点配置过滤</li><li>还有需要注意的是使用表情<code>emoji</code>在<code>hexo</code>中需要插件⊙﹏⊙</li><li>配置过程中遇到其它问题可以根据自己的主题项目结构进行查看并个性化修改配置文件，下面是<code>Annie</code>项目结构：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">Annie</span><br><span class="line">├─languages#国际化语言支持</span><br><span class="line">├─layout#html页面模板</span><br><span class="line">│  └─_partial</span><br><span class="line">│      ├─custom</span><br><span class="line">│      ├─plugin</span><br><span class="line">│      │  ├─clipboard</span><br><span class="line">│      │  ├─comment</span><br><span class="line">│      │  ├─share</span><br><span class="line">│      │  └─statistics</span><br><span class="line">│      ├─post</span><br><span class="line">│      └─widget</span><br><span class="line">├─scripts#站点脚本</span><br><span class="line">└─source#主题资源</span><br><span class="line">    ├─css</span><br><span class="line">    │  └─_highlight</span><br><span class="line">    ├─img</span><br><span class="line">    │  ├─post-cover</span><br><span class="line">    │  ├─quote</span><br><span class="line">    │  └─random</span><br><span class="line">    ├─js</span><br><span class="line">    └─plugin</span><br><span class="line">        ├─chinese</span><br><span class="line">        ├─clipboard</span><br><span class="line">        ├─comment</span><br><span class="line">        ├─fancybox</span><br><span class="line">        ├─gallerypage</span><br><span class="line">        │  └─images</span><br><span class="line">        ├─imgLazyLoader</span><br><span class="line">        ├─imgResize</span><br><span class="line">        ├─love</span><br><span class="line">        ├─motto</span><br><span class="line">        ├─nicescroll</span><br><span class="line">        ├─search</span><br><span class="line">        ├─toc</span><br><span class="line">        └─vibrant</span><br></pre></td></tr></table></figure></li></ul><h3 id="其它问题解决"><a href="#其它问题解决" class="headerlink" title="其它问题解决"></a>其它问题解决</h3><h4 id="关于网站统计问题"><a href="#关于网站统计问题" class="headerlink" title="关于网站统计问题"></a>关于网站统计问题</h4><blockquote><p>我自己在配置百度统计的时候直接放上去ID是没有反应的，获取不到，不知道为什么<br>最后解决方案是寻找网站html页面模版，在<code>\layout\_partial</code>找到<code>footer.ejs</code><br>查看里面的统计模块我直接在busuanzi下面照葫芦画瓢加了一行<br><code>&lt;%- partial(&#39;plugin/statistics&#39;, &#123;type: &#39;baidu-analysis&#39;&#125;) %&gt;</code><br>然后按<code>\plugin\statistics</code>找到不同统计设置文件，直接在里面增加自己的百度统计ID。<br>百度统计的代码获取中有一行<code>hm.src = &quot;https://hm.baidu.com/hm.js?a087f930b192cdc0461708562e128e6b&quot;;</code>其中<code>hm.js?</code>后面的就是自己的百度统计ID<br>（类似的问题也可以这样尝试自己解决）</p></blockquote><h4 id="关于域名解析后开启CDN加速问题（阿里云）"><a href="#关于域名解析后开启CDN加速问题（阿里云）" class="headerlink" title="关于域名解析后开启CDN加速问题（阿里云）"></a>关于域名解析后开启CDN加速问题（阿里云）</h4><blockquote><p>域名解析按照上面链接食用即可，关于CDN加速，阿里云内都有详细介绍，如：<a href="https://help.aliyun.com/document_detail/64928.html?spm=5176.11220512.0.0.2e9372f0EMk9wR">如何配置CNAME?</a><br>很坑爹的是阿里云里面的动态加速不要开！不要开！不要开！<br>我一打开它就页面重定向过多报错，找了老久才发现原因。<br>后面的HTTPS配置，阿里云可以免费申请SSL证书，详情：<a href="https://help.aliyun.com/document_detail/65101.html?spm=5176.11220512.0.0.2e9372f0EMk9wR">如何配置HTTPS？</a><br>不用阿里云的也差不多，配置证书方式可能不一样，<br>不使用证书的话浏览器地址栏左侧可能会提示你该网站不安全，<br>有的甚至还会在打开网页的时候必须手动点击来确认打开（比如谷歌）</p></blockquote><h4 id="网站根目录有些文件需要排除出渲染覆盖范围"><a href="#网站根目录有些文件需要排除出渲染覆盖范围" class="headerlink" title="网站根目录有些文件需要排除出渲染覆盖范围"></a>网站根目录有些文件需要排除出渲染覆盖范围</h4><blockquote><p>在站点配置文件 <code>_config.yml</code> 中进行修改<br>注意排除的是 <code>/source/</code> 文件夹下需要排除的文件：<br>（最好是将不需要被访问的都屏蔽）</p></blockquote><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#directory</span></span><br><span class="line"><span class="attr">skip_render:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">README.md</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">CNAME</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">baidu_verify_XXXXXXXXXX.html</span> <span class="comment">#下载的文件名</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">googlexxxxxx.html</span> <span class="comment">#下载文件名</span></span><br><span class="line">  <span class="bullet">-</span> <span class="comment">#上面 Baidu 和 Google 是用于站点收录的</span></span><br></pre></td></tr></table></figure><h4 id="部分Markdown语法渲染出错"><a href="#部分Markdown语法渲染出错" class="headerlink" title="部分Markdown语法渲染出错"></a>部分Markdown语法渲染出错</h4><blockquote><p>我自己学习写Markdown的时候使用的是<a href="https://tamlok.github.io/vnote/zh_cn/">VNote</a>编辑器来写的<br>在它的默认渲染下脚注表情等等显示很正常，但是问题来了<br>部署到服务器上后，网页上的脚注就是显示不正常，总是会被解析成超链接<br>搜了半天超链接和都是没有用的，最后想到编辑器有选择渲染器的选项栏<br>拨云见日=-=，<a href="https://github.com/hexojs/hexo-renderer-markdown-it/wiki">npm官方hexo-renderer-markdown-it插件</a></p></blockquote><p>最后建议还是不用这些工具，慢慢写着就记住了一些md语法</p><h3 id="推广链接"><a href="#推广链接" class="headerlink" title="推广链接"></a>推广链接</h3><ul><li><a href="https://www.singlelovely.cn/">CZLisyx - 浮生志</a></li><li><a href="https://www.ugediao.com/">有格调</a></li><li><a href="https://sariay.github.io/">Sariay-Blog</a></li><li><a href="http://gallery.sariay.me/">Sariay新的Hexo相册主题</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Blog </tag>
+            
+            <tag> Annie </tag>
+            
+            <tag> Git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="post/4a17b156.html"/>
+      <url>post/4a17b156.html</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html">Deployment</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Hello World! </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+    
+    
+    <entry>
+      <title>关于</title>
+      <link href="about/index.html"/>
+      <url>about/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Daily</title>
+      <link href="artitalk/index.html"/>
+      <url>artitalk/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>link</title>
+      <link href="link/index.html"/>
+      <url>link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分类</title>
+      <link href="categories/index.html"/>
+      <url>categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐</title>
+      <link href="playlist/index.html"/>
+      <url>playlist/index.html</url>
+      
+        <content type="html"><![CDATA[    <div id="aplayer-fjbFqspq" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7787176167" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"    ></div><p>歌单详情：<a href="https://i.y.qq.com/n2/m/share/details/taoge.html?platform=11&appshare=android_qq&appversion=10060008&hosteuin=oKn5NKClNecl7n**&id=7787176167&ADTAG=qfshare">岚的歌单：七月の谎言</a><br>可复制链接导入其它音乐app</p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="tags/index.html"/>
+      <url>tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Todo</title>
+      <link href="schedule/index.html"/>
+      <url>schedule/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="tianOthers/manifest.json"/>
+      <url>tianOthers/manifest.json</url>
+      
+        <content type="html"><![CDATA[{"name":"Ti`an","short_name":"Ti`an","theme_color":"#49b1f5","background_color":"#49b1f5","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"https://img.thaddeus.ink/self_images/pwaicons/tian_36.png","sizes":"36x36","type":"image/png"},{"src":"https://img.thaddeus.ink/self_images/pwaicons/tian_48.png","sizes":"48x48","type":"image/png"},{"src":"https://img.thaddeus.ink/self_images/pwaicons/tian_72.png","sizes":"72x72","type":"image/png"},{"src":"https://img.thaddeus.ink/self_images/pwaicons/tian_96.png","sizes":"96x96","type":"image/png"},{"src":"https://img.thaddeus.ink/self_images/pwaicons/tian_144.png","sizes":"144x144","type":"image/png"},{"src":"https://img.thaddeus.ink/self_images/pwaicons/tian_192.png","sizes":"192x192","type":"image/png"},{"src":"https://img.thaddeus.ink/self_images/pwaicons/tian_512.png","sizes":"512x512","type":"image/png"}],"splash_pages":null}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>dailytalk</title>
+      <link href="dailytalk/index.html"/>
+      <url>dailytalk/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+  
+</search>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ti&#39;an</title>
+  <icon>http://thaddeus.ink/icon.png</icon>
+  <subtitle>层楼终究误少年，自由早晚乱余生</subtitle>
+  <link href="http://thaddeus.ink/atom.xml" rel="self"/>
+  
+  <link href="http://thaddeus.ink/"/>
+  <updated>2021-11-18T07:57:37.727Z</updated>
+  <id>http://thaddeus.ink/</id>
+  
+  <author>
+    <name>Ti&#39;an</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://thaddeus.ink/post/0"/>
+    <id>http://thaddeus.ink/post/0</id>
+    <published>2021-11-18T07:57:37.727Z</published>
+    <updated>2021-11-18T07:57:37.727Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;[toc]&lt;/p&gt;
+&lt;h1 id=&quot;参考文献&quot;&gt;&lt;a href=&quot;#参考文献&quot; class=&quot;headerlink&quot; title=&quot;参考文献&quot;&gt;&lt;/a&gt;参考文献&lt;/h1&gt;&lt;h5 id=&quot;毕业论文·害虫识别&quot;&gt;&lt;a href=&quot;#毕业论文·害虫识别&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Windows Terminal个人设置</title>
+    <link href="http://thaddeus.ink/post/82a5ec21"/>
+    <id>http://thaddeus.ink/post/82a5ec21</id>
+    <published>2020-12-23T08:02:57.000Z</published>
+    <updated>2020-12-23T08:02:57.000Z</updated>
+    
+    
+    <summary type="html">基本对着微软官方文档就行</summary>
+    
+    
+    
+    <category term="学习" scheme="http://thaddeus.ink/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="Windows Terminal" scheme="http://thaddeus.ink/tags/Windows-Terminal/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python数据分析和数据科学面试题（待完成）</title>
+    <link href="http://thaddeus.ink/post/561ea8e9"/>
+    <id>http://thaddeus.ink/post/561ea8e9</id>
+    <published>2020-12-06T07:37:46.000Z</published>
+    <updated>2020-12-06T07:37:46.000Z</updated>
+    
+    
+    <summary type="html">《Python编程：从数据分析到数据科学》（朝乐门著）P485.Python数据分析和数据科学面试题</summary>
+    
+    
+    
+    <category term="学习" scheme="http://thaddeus.ink/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="Python" scheme="http://thaddeus.ink/tags/Python/"/>
+    
+    <category term="数据科学" scheme="http://thaddeus.ink/tags/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/"/>
+    
+    <category term="Read" scheme="http://thaddeus.ink/tags/Read/"/>
+    
+    <category term="Q&amp;A" scheme="http://thaddeus.ink/tags/Q-A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>新生：Butterfly主题更替</title>
+    <link href="http://thaddeus.ink/post/bd4fbb72"/>
+    <id>http://thaddeus.ink/post/bd4fbb72</id>
+    <published>2020-11-20T04:46:21.000Z</published>
+    <updated>2020-11-20T04:46:21.000Z</updated>
+    
+    
+    <summary type="html">Just write</summary>
+    
+    
+    
+    <category term="博客" scheme="http://thaddeus.ink/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="Hexo" scheme="http://thaddeus.ink/tags/Hexo/"/>
+    
+    <category term="Blog" scheme="http://thaddeus.ink/tags/Blog/"/>
+    
+    <category term="Git" scheme="http://thaddeus.ink/tags/Git/"/>
+    
+    <category term="Butterfly" scheme="http://thaddeus.ink/tags/Butterfly/"/>
+    
+    <category term="CDN" scheme="http://thaddeus.ink/tags/CDN/"/>
+    
+    <category term="又拍云" scheme="http://thaddeus.ink/tags/%E5%8F%88%E6%8B%8D%E4%BA%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>初窥：git+hexo</title>
+    <link href="http://thaddeus.ink/post/992bb363"/>
+    <id>http://thaddeus.ink/post/992bb363</id>
+    <published>2020-05-19T16:00:00.000Z</published>
+    <updated>2020-05-19T16:00:00.000Z</updated>
+    
+    
+    <summary type="html">First Blood</summary>
+    
+    
+    
+    <category term="博客" scheme="http://thaddeus.ink/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="Hexo" scheme="http://thaddeus.ink/tags/Hexo/"/>
+    
+    <category term="Blog" scheme="http://thaddeus.ink/tags/Blog/"/>
+    
+    <category term="Annie" scheme="http://thaddeus.ink/tags/Annie/"/>
+    
+    <category term="Git" scheme="http://thaddeus.ink/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://thaddeus.ink/post/4a17b156"/>
+    <id>http://thaddeus.ink/post/4a17b156</id>
+    <published>2020-05-18T16:00:00.000Z</published>
+    <updated>2020-05-18T16:00:00.000Z</updated>
+    
+    
+    <summary type="html">Hello World!</summary>
+    
+    
+    
+    <category term="博客" scheme="http://thaddeus.ink/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="Hexo" scheme="http://thaddeus.ink/tags/Hexo/"/>
+    
+    <category term="Hello World!" scheme="http://thaddeus.ink/tags/Hello-World/"/>
+    
+  </entry>
+  
+</feed>
