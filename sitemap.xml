@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://thaddeus.ink/manifest.json</loc>
+    
+    <lastmod>2021-11-23</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://thaddeus.ink/post/abb6c8d0</loc>
     
     <lastmod>2021-11-23</lastmod>
@@ -26,13 +33,6 @@
     <loc>http://thaddeus.ink/post/82a5ec21</loc>
     
     <lastmod>2020-12-23</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://thaddeus.ink/tianOthers/manifest.json</loc>
-    
-    <lastmod>2020-12-14</lastmod>
     
   </url>
   
@@ -151,13 +151,6 @@
   </url>
   
   <url>
-    <loc>http://thaddeus.ink/tags/Windows-Terminal/</loc>
-    <lastmod>2021-11-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://thaddeus.ink/tags/Python/</loc>
     <lastmod>2021-11-23</lastmod>
     <changefreq>daily</changefreq>
@@ -180,6 +173,13 @@
   
   <url>
     <loc>http://thaddeus.ink/tags/Q-A/</loc>
+    <lastmod>2021-11-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://thaddeus.ink/tags/Windows-Terminal/</loc>
     <lastmod>2021-11-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -242,6 +242,13 @@
   </url>
   
   <url>
+    <loc>http://thaddeus.ink/tags/%E7%83%81/</loc>
+    <lastmod>2021-11-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://thaddeus.ink/tags/Butterfly/</loc>
     <lastmod>2021-11-23</lastmod>
     <changefreq>daily</changefreq>
@@ -257,13 +264,6 @@
   
   <url>
     <loc>http://thaddeus.ink/tags/%E5%8F%88%E6%8B%8D%E4%BA%91/</loc>
-    <lastmod>2021-11-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://thaddeus.ink/tags/%E7%83%81/</loc>
     <lastmod>2021-11-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
