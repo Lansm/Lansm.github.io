@@ -1,11 +1,55 @@
 {
-  "name": "hexo-theme-butterfly",
-  "version": "3.3.0",
-  "description": "A Simple and Card UI Design theme for Hexo",
-  "main": "package.json",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "hexo-theme-butterfly",
+  "_id": "hexo-theme-butterfly@3.8.4",
+  "_inBundle": false,
+  "_integrity": "sha1-tM/jE+d/r8BYa49OaYWn9pCChGs=",
+  "_location": "/hexo-theme-butterfly",
+  "_phantomChildren": {
+    "@babel/parser": "7.12.5",
+    "@babel/types": "7.12.6",
+    "assert-never": "1.2.1",
+    "babel-walk": "3.0.0-canary-5",
+    "character-parser": "2.2.0",
+    "doctypes": "1.1.0",
+    "js-stringify": "1.0.2",
+    "jstransformer": "1.0.0",
+    "object-assign": "4.1.1",
+    "resolve": "1.19.0"
   },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "hexo-theme-butterfly",
+    "name": "hexo-theme-butterfly",
+    "escapedName": "hexo-theme-butterfly",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmmirror.com/hexo-theme-butterfly/download/hexo-theme-butterfly-3.8.4.tgz",
+  "_shasum": "b4cfe313e77fafc0586b8f4e6985a7f69082846b",
+  "_spec": "hexo-theme-butterfly",
+  "_where": "E:\\IT\\code\\Lansm.github.io",
+  "author": {
+    "name": "Jerry",
+    "email": "i@immyw.com"
+  },
+  "bugs": {
+    "url": "https://github.com/jerryc127/hexo-theme-butterfly/issues",
+    "email": "i@immyw.com"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "hexo-renderer-pug": "^2.0.0",
+    "hexo-renderer-stylus": "^2.0.1"
+  },
+  "deprecated": false,
+  "description": "A Simple and Card UI Design theme for Hexo",
+  "homepage": "https://butterfly.js.org/",
   "keywords": [
     "hexo",
     "theme",
@@ -14,19 +58,15 @@
     "Jerry",
     "hexo-theme-butterfly"
   ],
+  "license": "Apache-2.0",
+  "main": "package.json",
+  "name": "hexo-theme-butterfly",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/jerryc127/hexo-theme-butterfly.git"
+    "type": "git",
+    "url": "git+https://github.com/jerryc127/hexo-theme-butterfly.git"
   },
-  "bugs": {
-    "url": "https://github.com/jerryc127/hexo-theme-butterfly/issues",
-    "email": "wong@jerryc.me"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "hexo-renderer-stylus": "^2.0.1",
-    "hexo-renderer-pug": "^1.0.0"
-  },
-  "homepage": "https://demo.jerryc.me/",
-  "author": "Jerry <wong@jerryc.me>",
-  "license": "Apache-2.0"
+  "version": "3.8.4"
 }

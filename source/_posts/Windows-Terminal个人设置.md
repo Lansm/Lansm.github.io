@@ -1,11 +1,11 @@
 ---
 title: Windows Terminal个人设置
 categories:
-  - 随写
+  - 学习
 tags:
   - Windows Terminal
 description: 基本对着微软官方文档就行
-cover: 'https://img.thaddeus.ink/self_images/anime_imgs/a035.jpg'
+cover: https://img.thaddeus.ink/self_images/anime_imgs/r208.jpg
 abbrlink: 82a5ec21
 date: 2020-12-23 16:02:57
 ---

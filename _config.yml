@@ -39,9 +39,8 @@ code_dir: downloads/code  # 代码目录
 i18n_dir: :lang 
 skip_render:    # 被复制到public而不进行渲染
   - README.md
-  - CNAME
-  - mainfest.json
   - background.css
+  - /tianOthers/*
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -54,7 +53,7 @@ external_link:
   exclude: ''
 filename_case: 0  # 把文件名转换为 1 小写 2 大写
 render_drafts: false # 显示草稿
-post_asset_folder: false # 启用Asset文件夹
+post_asset_folder: true # 启用Asset文件夹
 relative_link: false #把链接改为与根目录相对位置
 future: true  # 显示未来的文章
 highlight:  # 代码块设置 Highlight.js
@@ -123,7 +122,7 @@ theme: butterfly
 deploy:
   type: git
   repo: https://github.com/Lansm/Lansm.github.io.git
-  branch: master
+  branch: main
 
 aplayer:
   meting: true
@@ -199,7 +198,7 @@ encrypt: # hexo-blog-encrypt
 # hexo-hide-posts
 hide_posts:
   # 可以改成其他你喜欢的名字
-  filter: secret
+  filter: hidden
   # 指定你想要传递隐藏文章的 generator，比如让所有隐藏文章在存档页面可见
   # 常见的 generators 有：index, tag, category, archive, sitemap, feed, etc.
   public_generators: [tag,category,archive,sitemap,feed]
