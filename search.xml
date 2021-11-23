@@ -4,19 +4,6 @@
   
     
     <entry>
-      <title></title>
-      <link href="post/0.html"/>
-      <url>post/0.html</url>
-      
-        <content type="html"><![CDATA[<p>[toc]</p><h1 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h1><h5 id="毕业论文·害虫识别"><a href="#毕业论文·害虫识别" class="headerlink" title="毕业论文·害虫识别"></a>毕业论文·害虫识别</h5><p>[3]李瑞. 小目标害虫图像自动识别与计数研究[D].中国科学技术大学,2021.</p><details><summary> 博士论文·2021·中科大</summary><pre>> 问题与挑战：环境复杂，害虫形态各异、尺度不一，识别计数困难> 创新点：小目标害图像自动识别与计数>     1. 样本规模小>         将传统图像预处理、颜色迁移、图像融合 结合，进行数据增强时加入作物数据集，生成新样本时考虑害虫生活习性，生成更多高质量、跨场景的样本数据 >         提升模型精度与鲁棒性>     2. 复杂环境·群聚性>         提出 Coarse-to-Fine网络架构，通过 粗网络 检测小目标害虫聚集区域，通过 细网络 来检测区域中目标害虫，最后融合细网络与全局检测网络结果。>         提出一种新的非极大值抑制算法NMS，解决中间过程粗网络检测框重叠问题>     3. 高密度、高遮挡>         提出Detect-Density网络结构，将通用目标检测与密度估计方法进行融合>         包括：害虫密度分类网络，害虫检测网络，害虫密度估计网络>     4. 应用算法到田间调查中。推广应用> 理论：>     卷积神经网络：层+激活+损失+优化器>     目标检测技术：骨干网络AlexNet-DenseNet+IoU NMS Anchor FPN+YOLO SSD RetinaNet FCOS FasterRCNN LibraRCNN CascadeRCNN +AP mAP>     基于密度图的目标检测技术> 实际工作：>     数据增强：颜色迁移+预处理+图像融合>     提出CFN Coarse-to-Fine网络：粗检测+全局监测+细检测>     提出Detect-Density网络 融合通用目标检测与密度估计> 研究应用：</pre></details><p>[1]王剑. 基于神经网络的水稻三化螟识别系统的设计与实现[D].中国农业科学院,2006.</p><p>[1]刘德营. 稻飞虱自动识别关键技术的研究[D].南京农业大学,2011.</p><p>机器学习解码化学特征以识别新的蛾类气味受体激动剂<br>[1]Gabriela Caballero-Vidal,Cédric Bouysset,Hubert Grunig,Sébastien Fiorucci,Nicolas Montagné,Jérôme Golebiowski,Emmanuelle Jacquin-Joly. Machine learning decodes chemical features to identify novel agonists of a moth odorant receptor[J]. Scientific Reports,2020,10(3):</p><h5 id="综述-2"><a href="#综述-2" class="headerlink" title="综述 -2"></a>综述 -2</h5><p>[1]张琦,张荣梅,陈彬.基于深度学习的图像识别技术研究综述[J].河北省科学院学报,2019,36(03):28-36.</p><p>[1]郑远攀,李广阳,李晔.深度学习在图像识别中的应用研究综述[J].计算机工程与应用,2019,55(12):20-36.</p><h5 id="害虫危害-3-5"><a href="#害虫危害-3-5" class="headerlink" title="害虫危害- 3+5"></a>害虫危害- 3+5</h5><p>小麦茎叶蜂是北美北部平原小麦主要害虫，量化中国北方采集点六年来本地宿主寄生情况，确定中国北方寄生蜂作为潜在生物防治剂。<br>[1]Tatyana A. Rand,Debra K. Waters,Thomas G. Shanower. Preliminary evaluation of the parasitoid wasp, Collyria catoptron , as a potential biological control agent against the wheat stem sawfly, Cephus cinctus , in North America[J]. Biocontrol Science and Technology,2016,26(1).</p><p>来自墨西哥的昆虫病原线虫能够克服西部玉米根虫的抗性机制<br>[1]Pamela Bruno,Ricardo A. R. Machado,Gaétan Glauser,Angela Köhler,Raquel Campos-Herrera,Julio Bernal,Stefan Toepfer,Matthias Erb,Christelle A. M. Robert,Carla C. M. Arce,Ted C. J. Turlings. Entomopathogenic nematodes from Mexico that can overcome the resistance mechanisms of the western corn rootworm[J]. Scientific Reports,2020,10(1):</p><p>在加纳检测草地贪夜蛾的分子方法，以及监测入侵物种在发展中国家的传播的意义<br>[1]Matthew J. W. Cock,Patrick K. Beseh,Alan G. Buddie,Giovanni CafÃ¡,Jayne Crozier. Molecular methods to detect Spodoptera frugiperda in Ghana, and implications for monitoring the spread of invasive species in developing countries[J]. Scientific Reports,2017,7(1):</p><p>[1]祝清光. 小麦病虫害绿色防控技术[A]. 陈万全.植物健康与病虫害防控[C].:中国植物保护学会,2020:3.<br>[1]王永芳,马继芳,齐永志,勾建军,王孟泉,陈立涛,靳群英,焦素环,张立娇,张颖,甄文超,董志平. 保护性耕作条件下小麦-玉米重要病虫害及一体化绿色防控技术研究与示范[A]. 陈万全.植物健康与病虫害防控[C].:中国植物保护学会,2020:1.<br>[1]王永芳, 保护性耕作条件下小麦-玉米主要病虫害发生规律及绿色防控技术研究. 河北省,河北省农林科学院谷子研究所,2020-08-18.<br>[1]孙瑞琳,孙成明. 小麦病虫害遥感监测研究进展[A]. 中国作物学会.2019年中国作物学会学术年会论文摘要集[C].中国作物学会:中国作物学会,2019:1.<br>[1]萧玉涛,吴超,吴孔明.中国农业害虫防治科技70年的成就与展望[J].应用昆虫学报,2019,56(06):1115-1124.</p><h5 id="其它识别技术（非AI）-3-2"><a href="#其它识别技术（非AI）-3-2" class="headerlink" title="其它识别技术（非AI）- 3+2"></a>其它识别技术（非AI）- 3+2</h5><p>采用DNA条形码、种特异性PCR和实时PCR技术对贮藏产品的6种三叶虫害虫进行鉴定<br>[1]Tao Zhang,Yi-Jiao Wang,Wei Guo,Dan Luo,Yi Wu,Zuzana Kučerová,Václav Stejskal,George Opit,Yang Cao,Fu-Jun Li,Zhi-Hong Li. DNA barcoding, species-specific PCR and real-time PCR techniques for the identification of six Tribolium pests of stored products[J]. Scientific Reports,2016,6(1):</p><p>建立一个全球 DNA 条形码参考库，用于鳞翅目茎螟的检疫鉴定，重点是甘蔗害虫<br>[1]Timothy R. C. Lee,Stacey J. Anderson,Lucy T. T. Tran-Nguyen,Nader Sallam,Bruno P. Le Ru,Desmond Conlong,Kevin Powell,Andrew Ward,Andrew Mitchell. Towards a global DNA barcode reference library for quarantine identifications of lepidopteran stemborers, with an emphasis on sugarcane pests[J]. Scientific Reports,2019,9(3):</p><h5 id="其它-人工智能-4"><a href="#其它-人工智能-4" class="headerlink" title="其它 人工智能- 4"></a>其它 人工智能- 4</h5><p>运营管理中的AI：应用、挑战和机遇<br>[1]Ali K. Dogru,Burcu B. Keskin. AI in operations management: applications, challenges and opportunities[J]. Journal of Data, Information and Management,2020,2(1):</p><p>出版者修正：脑部实验隐含着比常用AI学习算法更好的适应机制<br>[1]Shira Sardi,Roni Vardi,Yuval Meir,Yael Tugendhaft,Shiri Hodassman,Amir Goldental,Ido Kanter. Publisher Correction: Brain experiments imply adaptation mechanisms which outperform common AI learning algorithms[J]. Scientific Reports,2020,10(1):</p><p>火山新科学利用AI、卫星和气体传感器来预测喷发<br>[1]Jane Palmer. The new science of volcanoes harnesses AI, satellites and gas sensors to forecast eruptions[J]. Nature: International weekly journal of science,2020,581(7808):</p><p>利用数字创新改造业务：AI、区块链、云和数据分析的应用<br>[1]Shahriar Akter,Katina Michael,Muhammad Rajib Uddin,Grace McCarthy,Mahfuzur Rahman. Transforming business using digital innovations: the application of AI, blockchain, cloud and data analytics[J]. Annals of Operations Research,2020(prepublish):</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Windows Terminal个人设置</title>
       <link href="post/82a5ec21.html"/>
       <url>post/82a5ec21.html</url>
@@ -34,37 +21,6 @@
         <tags>
             
             <tag> Windows Terminal </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Python数据分析和数据科学面试题（待完成）</title>
-      <link href="post/561ea8e9.html"/>
-      <url>post/561ea8e9.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 学习 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Python </tag>
-            
-            <tag> 数据科学 </tag>
-            
-            <tag> Read </tag>
-            
-            <tag> Q&amp;A </tag>
             
         </tags>
       
@@ -91,9 +47,9 @@
             
             <tag> Hexo </tag>
             
-            <tag> Blog </tag>
-            
             <tag> Git </tag>
+            
+            <tag> Blog </tag>
             
             <tag> Butterfly </tag>
             
@@ -126,11 +82,11 @@
             
             <tag> Hexo </tag>
             
-            <tag> Blog </tag>
-            
             <tag> Annie </tag>
             
             <tag> Git </tag>
+            
+            <tag> Blog </tag>
             
         </tags>
       
@@ -169,17 +125,6 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="about/index.html"/>
-      <url>about/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Daily</title>
       <link href="artitalk/index.html"/>
       <url>artitalk/index.html</url>
@@ -191,9 +136,9 @@
     
     
     <entry>
-      <title>link</title>
-      <link href="link/index.html"/>
-      <url>link/index.html</url>
+      <title>关于</title>
+      <link href="about/index.html"/>
+      <url>about/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -213,22 +158,33 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="playlist/index.html"/>
-      <url>playlist/index.html</url>
+      <title>dailytalk</title>
+      <link href="dailytalk/index.html"/>
+      <url>dailytalk/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-fjbFqspq" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7787176167" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"    ></div><p>歌单详情：<a href="https://i.y.qq.com/n2/m/share/details/taoge.html?platform=11&appshare=android_qq&appversion=10060008&hosteuin=oKn5NKClNecl7n**&id=7787176167&ADTAG=qfshare">岚的歌单：七月の谎言</a><br>可复制链接导入其它音乐app</p>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>标签</title>
-      <link href="tags/index.html"/>
-      <url>tags/index.html</url>
+      <title>link</title>
+      <link href="link/index.html"/>
+      <url>link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐</title>
+      <link href="playlist/index.html"/>
+      <url>playlist/index.html</url>
+      
+        <content type="html"><![CDATA[    <div id="aplayer-foJTGnLQ" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7787176167" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"    ></div><p>歌单详情：<a href="https://i.y.qq.com/n2/m/share/details/taoge.html?platform=11&appshare=android_qq&appversion=10060008&hosteuin=oKn5NKClNecl7n**&id=7787176167&ADTAG=qfshare">岚的歌单：七月の谎言</a><br>可复制链接导入其它音乐app</p>]]></content>
       
     </entry>
     
@@ -246,22 +202,22 @@
     
     
     <entry>
-      <title></title>
-      <link href="tianOthers/manifest.json"/>
-      <url>tianOthers/manifest.json</url>
+      <title>标签</title>
+      <link href="tags/index.html"/>
+      <url>tags/index.html</url>
       
-        <content type="html"><![CDATA[{"name":"Ti`an","short_name":"Ti`an","theme_color":"#49b1f5","background_color":"#49b1f5","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"https://img.thaddeus.ink/self_images/pwaicons/tian_36.png","sizes":"36x36","type":"image/png"},{"src":"https://img.thaddeus.ink/self_images/pwaicons/tian_48.png","sizes":"48x48","type":"image/png"},{"src":"https://img.thaddeus.ink/self_images/pwaicons/tian_72.png","sizes":"72x72","type":"image/png"},{"src":"https://img.thaddeus.ink/self_images/pwaicons/tian_96.png","sizes":"96x96","type":"image/png"},{"src":"https://img.thaddeus.ink/self_images/pwaicons/tian_144.png","sizes":"144x144","type":"image/png"},{"src":"https://img.thaddeus.ink/self_images/pwaicons/tian_192.png","sizes":"192x192","type":"image/png"},{"src":"https://img.thaddeus.ink/self_images/pwaicons/tian_512.png","sizes":"512x512","type":"image/png"}],"splash_pages":null}]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>dailytalk</title>
-      <link href="dailytalk/index.html"/>
-      <url>dailytalk/index.html</url>
+      <title></title>
+      <link href="tianOthers/manifest.json"/>
+      <url>tianOthers/manifest.json</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[{"name":"Ti`an","short_name":"Ti`an","theme_color":"#49b1f5","background_color":"#49b1f5","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"https://img.thaddeus.ink/self_images/pwaicons/tian_36.png","sizes":"36x36","type":"image/png"},{"src":"https://img.thaddeus.ink/self_images/pwaicons/tian_48.png","sizes":"48x48","type":"image/png"},{"src":"https://img.thaddeus.ink/self_images/pwaicons/tian_72.png","sizes":"72x72","type":"image/png"},{"src":"https://img.thaddeus.ink/self_images/pwaicons/tian_96.png","sizes":"96x96","type":"image/png"},{"src":"https://img.thaddeus.ink/self_images/pwaicons/tian_144.png","sizes":"144x144","type":"image/png"},{"src":"https://img.thaddeus.ink/self_images/pwaicons/tian_192.png","sizes":"192x192","type":"image/png"},{"src":"https://img.thaddeus.ink/self_images/pwaicons/tian_512.png","sizes":"512x512","type":"image/png"}],"splash_pages":null}]]></content>
       
     </entry>
     

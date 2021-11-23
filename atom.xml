@@ -6,7 +6,7 @@
   <link href="http://thaddeus.ink/atom.xml" rel="self"/>
   
   <link href="http://thaddeus.ink/"/>
-  <updated>2021-11-18T07:57:37.727Z</updated>
+  <updated>2020-12-23T08:02:57.000Z</updated>
   <id>http://thaddeus.ink/</id>
   
   <author>
@@ -15,28 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title></title>
-    <link href="http://thaddeus.ink/post/0"/>
-    <id>http://thaddeus.ink/post/0</id>
-    <published>2021-11-18T07:57:37.727Z</published>
-    <updated>2021-11-18T07:57:37.727Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;[toc]&lt;/p&gt;
-&lt;h1 id=&quot;参考文献&quot;&gt;&lt;a href=&quot;#参考文献&quot; class=&quot;headerlink&quot; title=&quot;参考文献&quot;&gt;&lt;/a&gt;参考文献&lt;/h1&gt;&lt;h5 id=&quot;毕业论文·害虫识别&quot;&gt;&lt;a href=&quot;#毕业论文·害虫识别&quot;</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>Windows Terminal个人设置</title>
@@ -58,31 +36,6 @@
   </entry>
   
   <entry>
-    <title>Python数据分析和数据科学面试题（待完成）</title>
-    <link href="http://thaddeus.ink/post/561ea8e9"/>
-    <id>http://thaddeus.ink/post/561ea8e9</id>
-    <published>2020-12-06T07:37:46.000Z</published>
-    <updated>2020-12-06T07:37:46.000Z</updated>
-    
-    
-    <summary type="html">《Python编程：从数据分析到数据科学》（朝乐门著）P485.Python数据分析和数据科学面试题</summary>
-    
-    
-    
-    <category term="学习" scheme="http://thaddeus.ink/categories/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="Python" scheme="http://thaddeus.ink/tags/Python/"/>
-    
-    <category term="数据科学" scheme="http://thaddeus.ink/tags/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/"/>
-    
-    <category term="Read" scheme="http://thaddeus.ink/tags/Read/"/>
-    
-    <category term="Q&amp;A" scheme="http://thaddeus.ink/tags/Q-A/"/>
-    
-  </entry>
-  
-  <entry>
     <title>新生：Butterfly主题更替</title>
     <link href="http://thaddeus.ink/post/bd4fbb72"/>
     <id>http://thaddeus.ink/post/bd4fbb72</id>
@@ -99,9 +52,9 @@
     
     <category term="Hexo" scheme="http://thaddeus.ink/tags/Hexo/"/>
     
-    <category term="Blog" scheme="http://thaddeus.ink/tags/Blog/"/>
-    
     <category term="Git" scheme="http://thaddeus.ink/tags/Git/"/>
+    
+    <category term="Blog" scheme="http://thaddeus.ink/tags/Blog/"/>
     
     <category term="Butterfly" scheme="http://thaddeus.ink/tags/Butterfly/"/>
     
@@ -128,11 +81,11 @@
     
     <category term="Hexo" scheme="http://thaddeus.ink/tags/Hexo/"/>
     
-    <category term="Blog" scheme="http://thaddeus.ink/tags/Blog/"/>
-    
     <category term="Annie" scheme="http://thaddeus.ink/tags/Annie/"/>
     
     <category term="Git" scheme="http://thaddeus.ink/tags/Git/"/>
+    
+    <category term="Blog" scheme="http://thaddeus.ink/tags/Blog/"/>
     
   </entry>
   
