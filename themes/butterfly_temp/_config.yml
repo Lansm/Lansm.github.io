@@ -6,21 +6,21 @@
 # name || icon:
 #   name || link || icon
 
-menu:
-  首页: / || fas fa-home
-  时光轴: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
-  # List||fas fa-list:
-  音乐: /playlist/ || fas fa-music
-  #   - Movie || /movies/ || fas fa-video
-  友链: /link/ || fas fa-link
-  休闲 || fas fa-layer-group:
-    - 阅读 || /books/ || fas fa-book
-    - 游戏 || /games/ || fab fa-steam-symbol
-    - 电影 || /movies/ || fas fa-camera
-  说说 : /dailytalk/ || fas fa-star-half-alt
-  # 关于: /about/ || fas fa-heart
+# menu:
+#   首页: / || fas fa-home
+#   时光轴: /archives/ || fas fa-archive
+#   标签: /tags/ || fas fa-tags
+#   分类: /categories/ || fas fa-folder-open
+#   # List||fas fa-list:
+#   音乐: /playlist/ || fas fa-music
+#   #   - Movie || /movies/ || fas fa-video
+#   友链: /link/ || fas fa-link
+#   休闲 || fas fa-layer-group:
+#     - 阅读 || /books/ || fas fa-book
+#     - 游戏 || /games/ || fab fa-steam-symbol
+#     - 电影 || /movies/ || fas fa-camera
+#     - 说说 || /artitalk/ || fas fa-star-half-alt
+#   关于: /about/ || fas fa-heart
   # Home: / || fas fa-home
   # Archives: /archives/ || fas fa-archive
   # Tags: /tags/ || fas fa-tags
@@ -114,23 +114,23 @@ archive_img: https://img.thaddeus.ink/self_images/saber.jpg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: 
+tag_img: https://img.thaddeus.ink/self_images/curse_dnf.jpg
 
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
-tag_per_img: https://img.thaddeus.ink/self_images/anime_imgs/r114.【罪恶王冠】.jpg
+tag_per_img:
 
 # - linear-gradient( 135deg, #E2B0FF 10%, #9F44D3 100%)
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: 
+category_img: https://img.thaddeus.ink/self_images/reborn_dnf.jpg
 
 # The banner image of category page
 # format:
 #  - category name: xxxxx
-category_per_img: https://img.thaddeus.ink/self_images/anime_imgs/r114.【罪恶王冠】.jpg
+category_per_img:
 
 
 
@@ -156,19 +156,19 @@ cover:
     - https://img.thaddeus.ink/self_images/dva_4k.jpg
     - https://img.thaddeus.ink/self_images/ud_deathknight.jpg
     - https://img.thaddeus.ink/self_images/curse_dnf.jpg
-    
+    - https://img.thaddeus.ink/self_images/reborn_dnf.jpg
 
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
   flink: https://img.thaddeus.ink/self_images/6_waterlight.jpg
-  post_page: https://img.thaddeus.ink/self_images/anime_imgs/c028.jpg
+  post_page: https://img.thaddeus.ink/self_images/reborn_dnf.jpg
 
 # A simple 404 page
 error_404:
   enable: true
   subtitle: '新的华点已被发现，建议给个建议'
-  background: https://img.thaddeus.ink/self_images/anime_imgs/r114.【罪恶王冠】.jpg
+  background: https://img.thaddeus.ink/self_images/curse_dnf.jpg
 
 post_meta:
   page: # Home Page
@@ -455,32 +455,26 @@ google_adsense:
 
 # Verification (站長驗證)
 # --------------------------------------
-site-verification:
-    - name: baidu_site_verification
-      content: code-gTw0apKNoo
-    - name: qihu_site_verification
-      content: ce745f2b78adf0aaf5822f96234d2657
-    - name: yandex_site_verification
-      content: 681427508c2ab377
+
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-# google_site_verification:
+google_site_verification:
 
-# # Bing Webmaster tools verification setting
-# # See: https://www.bing.com/webmaster/
-# bing_site_verification:
+# Bing Webmaster tools verification setting
+# See: https://www.bing.com/webmaster/
+bing_site_verification:
 
-# # Baidu Webmaster tools verification setting
-# # See: https://ziyuan.baidu.com/site/
-# baidu_site_verification: code-gTw0apKNoo
+# Baidu Webmaster tools verification setting
+# See: https://ziyuan.baidu.com/site/
+baidu_site_verification: code-gTw0apKNoo
 
-# # 360 Webmaster tools verification setting
-# # see https://zhanzhang.so.com/
-# qihu_site_verification: ce745f2b78adf0aaf5822f96234d2657
+# 360 Webmaster tools verification setting
+# see https://zhanzhang.so.com/
+qihu_site_verification: ce745f2b78adf0aaf5822f96234d2657
 
-# # Yandex Webmaster tools verification setting
-# # see https://webmaster.yandex.com/
-# yandex_site_verification: 681427508c2ab377
+# Yandex Webmaster tools verification setting
+# see https://webmaster.yandex.com/
+yandex_site_verification: 681427508c2ab377
 
 # Beautify/Effect (美化/效果)
 # --------------------------------------
@@ -519,7 +513,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(https://xxxxxx.com/xxx.jpg)
-background: 
+background: url(https://img.thaddeus.ink/self_images/ud_deathknight.jpg)
 
 # Footer Background
 footer_bg:  # https://img.thaddeus.ink/self_images/deathknight.jpg
@@ -589,6 +583,22 @@ ClickShowText:
     - 千里不留行
     - 事了拂衣去
     - 深藏身与名
+    - 闲过信陵饮
+    - 脱剑膝前横
+    - 将炙啖朱亥
+    - 持觞劝侯嬴
+    - 三杯吐然诺
+    - 五岳倒为轻
+    - 眼花耳热后
+    - 意气素霓生
+    - 救赵挥金槌
+    - 邯郸先震惊
+    - 千秋二壮士
+    - 烜赫大梁城
+    - 纵死侠骨香
+    - 不惭世上英
+    - 谁能书阁下
+    - 白首太玄经
     # - I
     # - LOVE
     # - YOU
@@ -801,13 +811,12 @@ note:
 
 # Artitalk
 # see https://artitalk.js.org/
-# artitalk:
-#   appId: isRXNKjqU5D1ciEkVcO2H3tA-MdYXbMMI
-#   appKey: gBtwhkK1z3vyqhmpJvQhYhWx
-#   path: dailytalk
-#   option:
-#     pageSize: 10
-#     lang: zh
+artitalk:
+  appId: isRXNKjqU5D1ciEkVcO2H3tA-MdYXbMMI
+  appKey: gBtwhkK1z3vyqhmpJvQhYhWx
+  option:
+    pageSize: 10
+    lang: zh
 
 # Pjax [Beta]
 # It may contain bugs and unstable, give feedback when you find the bugs.

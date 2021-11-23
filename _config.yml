@@ -94,7 +94,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'date'
+updated_option: date
 # mtime 使用文件的最后修改时间
 # date 推荐可被用于Git工作流
 # empty 不使用updated
@@ -219,3 +219,12 @@ douban:
     title: 'Games'
     quote: '我于杀戮之中盛放，亦如黎明中的花朵'
   timeout: 1000
+
+artitalk:
+  enable: true
+  appId: isRXNKjqU5D1ciEkVcO2H3tA-MdYXbMMI
+  appKey: gBtwhkK1z3vyqhmpJvQhYhWx
+  path: dailytalk
+  option:
+    pageSize: 10
+    lang: zh
