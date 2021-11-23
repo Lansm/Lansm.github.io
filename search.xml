@@ -47,9 +47,9 @@
             
             <tag> Hexo </tag>
             
-            <tag> Git </tag>
-            
             <tag> Blog </tag>
+            
+            <tag> Git </tag>
             
             <tag> Butterfly </tag>
             
@@ -82,11 +82,11 @@
             
             <tag> Hexo </tag>
             
+            <tag> Blog </tag>
+            
             <tag> Annie </tag>
             
             <tag> Git </tag>
-            
-            <tag> Blog </tag>
             
         </tags>
       
@@ -147,9 +147,9 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="categories/index.html"/>
-      <url>categories/index.html</url>
+      <title>dailytalk</title>
+      <link href="dailytalk/index.html"/>
+      <url>dailytalk/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -158,9 +158,9 @@
     
     
     <entry>
-      <title>dailytalk</title>
-      <link href="dailytalk/index.html"/>
-      <url>dailytalk/index.html</url>
+      <title>分类</title>
+      <link href="categories/index.html"/>
+      <url>categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -180,22 +180,22 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="playlist/index.html"/>
-      <url>playlist/index.html</url>
+      <title>Todo</title>
+      <link href="schedule/index.html"/>
+      <url>schedule/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-foJTGnLQ" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7787176167" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"    ></div><p>歌单详情：<a href="https://i.y.qq.com/n2/m/share/details/taoge.html?platform=11&appshare=android_qq&appversion=10060008&hosteuin=oKn5NKClNecl7n**&id=7787176167&ADTAG=qfshare">岚的歌单：七月の谎言</a><br>可复制链接导入其它音乐app</p>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>Todo</title>
-      <link href="schedule/index.html"/>
-      <url>schedule/index.html</url>
+      <title>音乐</title>
+      <link href="playlist/index.html"/>
+      <url>playlist/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-ILunYYpR" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7787176167" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"    ></div><p>歌单详情：<a href="https://i.y.qq.com/n2/m/share/details/taoge.html?platform=11&appshare=android_qq&appversion=10060008&hosteuin=oKn5NKClNecl7n**&id=7787176167&ADTAG=qfshare">岚的歌单：七月の谎言</a><br>可复制链接导入其它音乐app</p>]]></content>
       
     </entry>
     
