@@ -125,31 +125,9 @@
     
     
     <entry>
-      <title>Daily</title>
-      <link href="artitalk/index.html"/>
-      <url>artitalk/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>关于</title>
       <link href="about/index.html"/>
       <url>about/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>dailytalk</title>
-      <link href="dailytalk/index.html"/>
-      <url>dailytalk/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -180,9 +158,9 @@
     
     
     <entry>
-      <title>Todo</title>
-      <link href="schedule/index.html"/>
-      <url>schedule/index.html</url>
+      <title>Daily</title>
+      <link href="artitalk/index.html"/>
+      <url>artitalk/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -195,7 +173,29 @@
       <link href="playlist/index.html"/>
       <url>playlist/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-ILunYYpR" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7787176167" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"    ></div><p>歌单详情：<a href="https://i.y.qq.com/n2/m/share/details/taoge.html?platform=11&appshare=android_qq&appversion=10060008&hosteuin=oKn5NKClNecl7n**&id=7787176167&ADTAG=qfshare">岚的歌单：七月の谎言</a><br>可复制链接导入其它音乐app</p>]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-KaDTosLi" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1829895799" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"    ></div><p>歌单详情：<a href="https://y.qq.com/n/ryqq/playlist/1829895799">岚的歌单：七月の谎言</a></p><p>可复制链接导入其它音乐app</p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>dailytalk</title>
+      <link href="dailytalk/index.html"/>
+      <url>dailytalk/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Todo</title>
+      <link href="schedule/index.html"/>
+      <url>schedule/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
