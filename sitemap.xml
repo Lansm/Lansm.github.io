@@ -9,20 +9,6 @@
   </url>
   
   <url>
-    <loc>http://thaddeus.ink/post/abb6c8d0</loc>
-    
-    <lastmod>2021-11-23</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://thaddeus.ink/post/bfa35e15</loc>
-    
-    <lastmod>2021-11-01</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://thaddeus.ink/post/7151ebee</loc>
     
     <lastmod>2021-02-01</lastmod>
@@ -38,13 +24,6 @@
   
   <url>
     <loc>http://thaddeus.ink/dailytalk/</loc>
-    
-    <lastmod>2020-12-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://thaddeus.ink/post/561ea8e9</loc>
     
     <lastmod>2020-12-06</lastmod>
     
@@ -130,7 +109,7 @@
 
   <url>
     <loc>http://thaddeus.ink/</loc>
-    <lastmod>2021-11-23</lastmod>
+    <lastmod>2021-11-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -138,140 +117,77 @@
   
   <url>
     <loc>http://thaddeus.ink/tags/Hexo/</loc>
-    <lastmod>2021-11-23</lastmod>
+    <lastmod>2021-11-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://thaddeus.ink/tags/Blog/</loc>
-    <lastmod>2021-11-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://thaddeus.ink/tags/Python/</loc>
-    <lastmod>2021-11-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://thaddeus.ink/tags/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/</loc>
-    <lastmod>2021-11-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://thaddeus.ink/tags/Read/</loc>
-    <lastmod>2021-11-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://thaddeus.ink/tags/Q-A/</loc>
-    <lastmod>2021-11-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://thaddeus.ink/tags/Windows-Terminal/</loc>
-    <lastmod>2021-11-23</lastmod>
+    <lastmod>2021-11-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://thaddeus.ink/tags/Hello-World/</loc>
-    <lastmod>2021-11-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://thaddeus.ink/tags/novel/</loc>
-    <lastmod>2021-11-23</lastmod>
+    <lastmod>2021-11-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://thaddeus.ink/tags/Annie/</loc>
-    <lastmod>2021-11-23</lastmod>
+    <lastmod>2021-11-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://thaddeus.ink/tags/Git/</loc>
-    <lastmod>2021-11-23</lastmod>
+    <lastmod>2021-11-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://thaddeus.ink/tags/%E8%AE%BA%E6%96%87/</loc>
-    <lastmod>2021-11-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://thaddeus.ink/tags/%E6%AF%95%E8%AE%BE/</loc>
-    <lastmod>2021-11-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://thaddeus.ink/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2021-11-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://thaddeus.ink/tags/AI/</loc>
-    <lastmod>2021-11-23</lastmod>
+    <loc>http://thaddeus.ink/tags/novel/</loc>
+    <lastmod>2021-11-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://thaddeus.ink/tags/%E7%83%81/</loc>
-    <lastmod>2021-11-23</lastmod>
+    <lastmod>2021-11-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://thaddeus.ink/tags/Windows-Terminal/</loc>
+    <lastmod>2021-11-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://thaddeus.ink/tags/Butterfly/</loc>
-    <lastmod>2021-11-23</lastmod>
+    <lastmod>2021-11-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://thaddeus.ink/tags/CDN/</loc>
-    <lastmod>2021-11-23</lastmod>
+    <lastmod>2021-11-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://thaddeus.ink/tags/%E5%8F%88%E6%8B%8D%E4%BA%91/</loc>
-    <lastmod>2021-11-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://thaddeus.ink/tags/%E7%9B%B8%E6%9C%BA%E4%BD%BF%E7%94%A8/</loc>
-    <lastmod>2021-11-23</lastmod>
+    <lastmod>2021-11-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -280,28 +196,21 @@
   
   <url>
     <loc>http://thaddeus.ink/categories/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2021-11-23</lastmod>
+    <lastmod>2021-11-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://thaddeus.ink/categories/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2021-11-23</lastmod>
+    <lastmod>2021-11-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://thaddeus.ink/categories/%E9%9A%8F%E5%86%99/</loc>
-    <lastmod>2021-11-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://thaddeus.ink/categories/%E5%85%B4%E8%B6%A3/</loc>
-    <lastmod>2021-11-23</lastmod>
+    <lastmod>2021-11-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
