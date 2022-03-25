@@ -53,7 +53,7 @@ external_link:
   exclude: ''
 filename_case: 0  # 把文件名转换为 1 小写 2 大写
 render_drafts: false # 显示草稿
-post_asset_folder: true # 启用Asset文件夹
+post_asset_folder: false # 启用Asset文件夹
 relative_link: false #把链接改为与根目录相对位置
 future: true  # 显示未来的文章
 highlight:  # 代码块设置 Highlight.js
